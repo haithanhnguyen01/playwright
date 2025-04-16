@@ -34,7 +34,7 @@ test("Tidal design", async ({ page }) => {
       const productName = await currentTab.locator('.left.col25.font26.serif').innerText();
       console.log(`Product Name: ${productName}`);
 
-      // Optional image extraction
+      // unable to find img.img-tecnica
       const img = currentTab.locator('img.img-tecnica');
       if (await img.isVisible()) {
         const src = await img.getAttribute('src');
