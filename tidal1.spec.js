@@ -1,46 +1,116 @@
 // @ts-check
 import { test, expect } from '@playwright/test';
-import { executionAsyncId } from 'async_hooks';
-test("Tidal design", async ({ page }) => {
-    // Navigate to the website using goto
-    await page.goto('https://www.lodes.com/en/products/tidal-2/', { waitUntil: 'domcontentloaded' });
 
-    // Accept cookies if visible
-    const rejectCookies = page.getByRole('button', { name: 'Reject all' });
+test("Tidal design with multiple variants", async ({ page }) => {
+  await page.goto('https://www.lodes.com/en/products/tidal-2/?code=eu', { waitUntil: 'domcontentloaded' });
+
   try {
+    const rejectCookies = page.getByRole('button', { name: 'Reject all' });
     await rejectCookies.waitFor({ timeout: 10000 });
     await rejectCookies.click();
-  } catch {
-  }
-    //access child elements through loop of each item
-  
-    
-  const variants = page.locator('.variante');
-  const count = await variants.count();
+  } catch {}
 
-  for (let i = 0; i < count; i++) {
-    const currentTab = variants.nth(i);
+  const fullProducts = [];
 
-    // Click the tab
-    await currentTab.click();
-    await page.waitForTimeout(800); 
+  for (let variantIndex = 0; variantIndex < 2; variantIndex++) {
+    const variants = await page.$$('.variante');
+    if (variants.length <= variantIndex) break;
 
-    // Get content inside current tab
-    const body = currentTab.locator('.body-variante');
-    const isVisible = await body.isVisible();
-    console.log(`Body visible: ${isVisible}`);
+    await variants[variantIndex].click();
+    await page.waitForTimeout(800);
 
-    if (isVisible) {
-      const productName = await currentTab.locator('.left.col25.font26.serif').innerText();
-      console.log(`Product Name: ${productName}`);
+    const body = page.locator('.body-variante').first();
+    if (await body.isVisible()) {
+      const productName = await page.locator('.left.col25.font26.serif').first().innerText();
+      const image = await page.locator('.img-tecnica-td .img-tecnica').first();
+      const imageSrc = await image.getAttribute('src');
 
-      // Optional image extraction
-      const img = currentTab.locator('img.img-tecnica');
-      if (await img.isVisible()) {
-        const src = await img.getAttribute('src');
-        console.log(`Image URL: ${src}`);
+      let productDetails = [];
+
+      // Only extract table and lamps for the first variant
+      if (variantIndex === 0) {
+        const table = await page.$('table.table-variante.marginb40');
+        const lampDivs = page.locator('div.single-lampadina');
+        const lamp2700Text = await lampDivs.nth(0).innerText();
+        const lamp3000Text = await lampDivs.nth(1).innerText();
+
+        const parseLamp = (text) => {
+          const lines = text
+            .split('\n')
+            .map(line => line.replace(/^\u21d9\s?/, '').trim())
+            .filter(line => line.length > 0);
+
+          return {
+            type: lines[0] || 'N/A',
+            temperature: lines[1] || 'N/A',
+            wattage: lines[2] || 'N/A',
+            lumens: lines[3] || 'N/A',
+            current: lines[4] || 'N/A',
+            CRI: lines[5] || 'N/A',
+            macAdam: lines[6] || 'N/A'
+          };
+        };
+
+        const parsedLamp2700 = parseLamp(lamp2700Text);
+        const parsedLamp3000 = parseLamp(lamp3000Text);
+
+        if (table) {
+          const rows = await table.$$('tr');
+          for (const row of rows) {
+            const iconTds = await row.$$('td.icons:has(table)');
+            const codeTds = await row.$$('td.codes:has(table)');
+            if (iconTds.length < 2 || codeTds.length < 1) continue;
+
+            const structureRows = await iconTds[0].$$('table tr');
+            const canopyRows = await iconTds[1].$$('table tr');
+            const codeRows = await codeTds[0].$$('table tr');
+            const codeRows2 = await codeTds[1].$$('table tr');
+            const rowCount = Math.min(structureRows.length, canopyRows.length, codeRows.length);
+
+            // 2700K codes
+            for (let i = 0; i < rowCount; i++) {
+              const structureImg = await structureRows[i].$('td a img');
+              const canopyImg = await canopyRows[i].$('td a img');
+              const codeCell = await codeRows[i].$('td');
+              const structureAlt = structureImg ? await structureImg.getAttribute('alt') : 'N/A';
+              const canopyAlt = canopyImg ? await canopyImg.getAttribute('alt') : 'N/A';
+              const codeText = codeCell ? (await codeCell.innerText()).trim() : 'N/A';
+
+              productDetails.push({
+                Code: codeText,
+                Structure: structureAlt,
+                Canopy: canopyAlt,
+                Lamp: parsedLamp2700
+              });
+            }
+
+            // 3000K codes
+            for (let i = 0; i < rowCount; i++) {
+              const structureImg = await structureRows[i].$('td a img');
+              const canopyImg = await canopyRows[i].$('td a img');
+              const codeCell = await codeRows2[i].$('td');
+              const structureAlt = structureImg ? await structureImg.getAttribute('alt') : 'N/A';
+              const canopyAlt = canopyImg ? await canopyImg.getAttribute('alt') : 'N/A';
+              const codeText = codeCell ? (await codeCell.innerText()).trim() : 'N/A';
+
+              productDetails.push({
+                Code: codeText,
+                Structure: structureAlt,
+                Canopy: canopyAlt,
+                Lamp: parsedLamp3000
+              });
+            }
+          }
+        }
       }
+
+      fullProducts.push({
+        "Product Name": productName.trim(),
+        "Dimension Drawing": imageSrc || 'N/A',
+        "Product Details": productDetails
+      });
     }
   }
-  
+
+  console.log(JSON.stringify(fullProducts, null, 2));
 });
