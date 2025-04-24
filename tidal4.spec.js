@@ -46,7 +46,8 @@ test("Tidal design with multiple variants", async ({ page }) => {
             lumens: lines[3] || 'N/A',
             current: lines[4] || 'N/A',
             CRI: lines[5] || 'N/A',
-            macAdam: lines[6] || 'N/A'
+            macAdam: lines[6] || 'N/A',
+            more:'LED and driver included'
           };
         };
 
@@ -79,7 +80,8 @@ test("Tidal design with multiple variants", async ({ page }) => {
                 Code: codeText,
                 Structure: structureAlt,
                 Canopy: canopyAlt,
-                Lamp: parsedLamp2700
+                Lamp: parsedLamp2700,
+                Dimming: 'Triac, Dali'
               });
             }
 
@@ -96,7 +98,8 @@ test("Tidal design with multiple variants", async ({ page }) => {
                 Code: codeText,
                 Structure: structureAlt,
                 Canopy: canopyAlt,
-                Lamp: parsedLamp3000
+                Lamp: parsedLamp3000,
+                Dimming: 'Triac, Dali'
               });
             }
           }

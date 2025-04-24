@@ -1,8 +1,8 @@
 // @ts-check
 import { test, expect } from '@playwright/test';
 
-test("Tidal design with multiple variants", async ({ page }) => {
-  await page.goto('https://www.lodes.com/en/products/tidal-2/?code=eu', { waitUntil: 'domcontentloaded' });
+test("A tube large", async ({ page }) => {
+  await page.goto('https://www.lodes.com/en/products/a-tube-nano-swing/?code=eu', { waitUntil: 'domcontentloaded' });
 
   try {
     const rejectCookies = page.getByRole('button', { name: 'Reject all' });
@@ -12,25 +12,24 @@ test("Tidal design with multiple variants", async ({ page }) => {
 
   const fullProducts = [];
 
-  for (let variantIndex = 0; variantIndex < 2; variantIndex++) {
     const variants = await page.$$('.variante');
-    if (variants.length <= variantIndex) break;
 
-    await variants[variantIndex].click();
+    await variants[2].click();
     await page.waitForTimeout(800);
 
-    const body = page.locator('.body-variante').first();
+    const body = page.locator('.body-variante').nth(2);
+    console.log(`body: ${body.isVisible()}`);
     if (await body.isVisible()) {
-      const productName = await page.locator('.left.col25.font26.serif').first().innerText();
-      const image = await page.locator('.img-tecnica-td .img-tecnica').first();
+      const productName = await page.locator('.left.col25.font26.serif').nth(2).innerText();
+      const image = await page.locator('.img-tecnica-td .img-tecnica').nth(2);
       const imageSrc = await image.getAttribute('src');
 
       let productDetails = [];
 
       // Only extract table and lamps for the first variant
-      if (variantIndex === 0) {
+   
         const table = await page.$('table.table-variante.marginb40');
-        const lampDivs = page.locator('div.single-lampadina');
+        const lampDivs = body.locator('div.single-lampadina');
         const lamp2700Text = await lampDivs.nth(0).innerText();
         const lamp3000Text = await lampDivs.nth(1).innerText();
 
@@ -47,8 +46,7 @@ test("Tidal design with multiple variants", async ({ page }) => {
             lumens: lines[3] || 'N/A',
             current: lines[4] || 'N/A',
             CRI: lines[5] || 'N/A',
-            macAdam: lines[6] || 'N/A',
-            more:'LED and driver included'
+            macAdam: lines[6] || 'N/A'
           };
         };
 
@@ -80,9 +78,8 @@ test("Tidal design with multiple variants", async ({ page }) => {
               productDetails.push({
                 Code: codeText,
                 Structure: structureAlt,
-                Canopy: canopyAlt,
-                Lamp: parsedLamp2700,
-                Dimming: 'Triac, Dali'
+                Diffuser: canopyAlt,
+                Lamp: parsedLamp2700
               });
             }
 
@@ -98,14 +95,13 @@ test("Tidal design with multiple variants", async ({ page }) => {
               productDetails.push({
                 Code: codeText,
                 Structure: structureAlt,
-                Canopy: canopyAlt,
-                Lamp: parsedLamp3000,
-                Dimming: 'Triac, Dali'
+                Diffuser: canopyAlt,
+                Lamp: parsedLamp3000
               });
             }
           }
         }
-      }
+      
 
       fullProducts.push({
         "Product Name": productName.trim(),
@@ -113,7 +109,7 @@ test("Tidal design with multiple variants", async ({ page }) => {
         "Product Details": productDetails
       });
     }
-  }
+  
 
   console.log(JSON.stringify(fullProducts, null, 2));
 });
