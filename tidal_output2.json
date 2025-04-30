@@ -1,0 +1,264 @@
+[
+  {
+    "Product Name": "Tidal Adjustable Dali",
+    "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2025/01/Tidal-Adjustable-suspension.png",
+    "Product Details": [
+      {
+        "Code": "19923 1027",
+        "Structure": "Matte White – 9016",
+        "Canopy": "Matte White – 9016",
+        "Lamp": {
+          "type": "LED",
+          "temperature": "↙ 2700 K",
+          "wattage": "↙ 33 W",
+          "lumens": "↙ 6120 lm",
+          "current": "↙ 350+350 mA",
+          "CRI": "↙ CRI 90",
+          "macAdam": "↙ MacAdam 3-Step",
+          "more": "LED and driver included"
+        },
+        "Dimming": "Triac, Dali"
+      },
+      {
+        "Code": "19923 2027",
+        "Structure": "Matte Black – 9005",
+        "Canopy": "Matte White – 9016",
+        "Lamp": {
+          "type": "LED",
+          "temperature": "↙ 2700 K",
+          "wattage": "↙ 33 W",
+          "lumens": "↙ 6120 lm",
+          "current": "↙ 350+350 mA",
+          "CRI": "↙ CRI 90",
+          "macAdam": "↙ MacAdam 3-Step",
+          "more": "LED and driver included"
+        },
+        "Dimming": "Triac, Dali"
+      },
+      {
+        "Code": "19923 4527",
+        "Structure": "Extra Matte Champagne",
+        "Canopy": "Matte White – 9016",
+        "Lamp": {
+          "type": "LED",
+          "temperature": "↙ 2700 K",
+          "wattage": "↙ 33 W",
+          "lumens": "↙ 6120 lm",
+          "current": "↙ 350+350 mA",
+          "CRI": "↙ CRI 90",
+          "macAdam": "↙ MacAdam 3-Step",
+          "more": "LED and driver included"
+        },
+        "Dimming": "Triac, Dali"
+      },
+      {
+        "Code": "19923 6727",
+        "Structure": "Terra",
+        "Canopy": "Matte White – 9016",
+        "Lamp": {
+          "type": "LED",
+          "temperature": "↙ 2700 K",
+          "wattage": "↙ 33 W",
+          "lumens": "↙ 6120 lm",
+          "current": "↙ 350+350 mA",
+          "CRI": "↙ CRI 90",
+          "macAdam": "↙ MacAdam 3-Step",
+          "more": "LED and driver included"
+        },
+        "Dimming": "Triac, Dali"
+      },
+      {
+        "Code": "19924 1027",
+        "Structure": "Matte White – 9016",
+        "Canopy": "Matte Black – 9005",
+        "Lamp": {
+          "type": "LED",
+          "temperature": "↙ 2700 K",
+          "wattage": "↙ 33 W",
+          "lumens": "↙ 6120 lm",
+          "current": "↙ 350+350 mA",
+          "CRI": "↙ CRI 90",
+          "macAdam": "↙ MacAdam 3-Step",
+          "more": "LED and driver included"
+        },
+        "Dimming": "Triac, Dali"
+      },
+      {
+        "Code": "19924 2027",
+        "Structure": "Matte Black – 9005",
+        "Canopy": "Matte Black – 9005",
+        "Lamp": {
+          "type": "LED",
+          "temperature": "↙ 2700 K",
+          "wattage": "↙ 33 W",
+          "lumens": "↙ 6120 lm",
+          "current": "↙ 350+350 mA",
+          "CRI": "↙ CRI 90",
+          "macAdam": "↙ MacAdam 3-Step",
+          "more": "LED and driver included"
+        },
+        "Dimming": "Triac, Dali"
+      },
+      {
+        "Code": "19924 4527",
+        "Structure": "Extra Matte Champagne",
+        "Canopy": "Matte Black – 9005",
+        "Lamp": {
+          "type": "LED",
+          "temperature": "↙ 2700 K",
+          "wattage": "↙ 33 W",
+          "lumens": "↙ 6120 lm",
+          "current": "↙ 350+350 mA",
+          "CRI": "↙ CRI 90",
+          "macAdam": "↙ MacAdam 3-Step",
+          "more": "LED and driver included"
+        },
+        "Dimming": "Triac, Dali"
+      },
+      {
+        "Code": "19924 6727",
+        "Structure": "Terra",
+        "Canopy": "Matte Black – 9005",
+        "Lamp": {
+          "type": "LED",
+          "temperature": "↙ 2700 K",
+          "wattage": "↙ 33 W",
+          "lumens": "↙ 6120 lm",
+          "current": "↙ 350+350 mA",
+          "CRI": "↙ CRI 90",
+          "macAdam": "↙ MacAdam 3-Step",
+          "more": "LED and driver included"
+        },
+        "Dimming": "Triac, Dali"
+      },
+      {
+        "Code": "19923 1030",
+        "Structure": "Matte White – 9016",
+        "Canopy": "Matte White – 9016",
+        "Lamp": {
+          "type": "LED",
+          "temperature": "↙ 3000 K",
+          "wattage": "↙ 33 W",
+          "lumens": "↙ 6630 lm",
+          "current": "↙ 350+350 mA",
+          "CRI": "↙ CRI 90",
+          "macAdam": "↙ MacAdam 3-Step",
+          "more": "LED and driver included"
+        },
+        "Dimming": "Triac, Dali"
+      },
+      {
+        "Code": "19923 2030",
+        "Structure": "Matte Black – 9005",
+        "Canopy": "Matte White – 9016",
+        "Lamp": {
+          "type": "LED",
+          "temperature": "↙ 3000 K",
+          "wattage": "↙ 33 W",
+          "lumens": "↙ 6630 lm",
+          "current": "↙ 350+350 mA",
+          "CRI": "↙ CRI 90",
+          "macAdam": "↙ MacAdam 3-Step",
+          "more": "LED and driver included"
+        },
+        "Dimming": "Triac, Dali"
+      },
+      {
+        "Code": "19923 4530",
+        "Structure": "Extra Matte Champagne",
+        "Canopy": "Matte White – 9016",
+        "Lamp": {
+          "type": "LED",
+          "temperature": "↙ 3000 K",
+          "wattage": "↙ 33 W",
+          "lumens": "↙ 6630 lm",
+          "current": "↙ 350+350 mA",
+          "CRI": "↙ CRI 90",
+          "macAdam": "↙ MacAdam 3-Step",
+          "more": "LED and driver included"
+        },
+        "Dimming": "Triac, Dali"
+      },
+      {
+        "Code": "19923 6730",
+        "Structure": "Terra",
+        "Canopy": "Matte White – 9016",
+        "Lamp": {
+          "type": "LED",
+          "temperature": "↙ 3000 K",
+          "wattage": "↙ 33 W",
+          "lumens": "↙ 6630 lm",
+          "current": "↙ 350+350 mA",
+          "CRI": "↙ CRI 90",
+          "macAdam": "↙ MacAdam 3-Step",
+          "more": "LED and driver included"
+        },
+        "Dimming": "Triac, Dali"
+      },
+      {
+        "Code": "19924 1030",
+        "Structure": "Matte White – 9016",
+        "Canopy": "Matte Black – 9005",
+        "Lamp": {
+          "type": "LED",
+          "temperature": "↙ 3000 K",
+          "wattage": "↙ 33 W",
+          "lumens": "↙ 6630 lm",
+          "current": "↙ 350+350 mA",
+          "CRI": "↙ CRI 90",
+          "macAdam": "↙ MacAdam 3-Step",
+          "more": "LED and driver included"
+        },
+        "Dimming": "Triac, Dali"
+      },
+      {
+        "Code": "19924 2030",
+        "Structure": "Matte Black – 9005",
+        "Canopy": "Matte Black – 9005",
+        "Lamp": {
+          "type": "LED",
+          "temperature": "↙ 3000 K",
+          "wattage": "↙ 33 W",
+          "lumens": "↙ 6630 lm",
+          "current": "↙ 350+350 mA",
+          "CRI": "↙ CRI 90",
+          "macAdam": "↙ MacAdam 3-Step",
+          "more": "LED and driver included"
+        },
+        "Dimming": "Triac, Dali"
+      },
+      {
+        "Code": "19924 4530",
+        "Structure": "Extra Matte Champagne",
+        "Canopy": "Matte Black – 9005",
+        "Lamp": {
+          "type": "LED",
+          "temperature": "↙ 3000 K",
+          "wattage": "↙ 33 W",
+          "lumens": "↙ 6630 lm",
+          "current": "↙ 350+350 mA",
+          "CRI": "↙ CRI 90",
+          "macAdam": "↙ MacAdam 3-Step",
+          "more": "LED and driver included"
+        },
+        "Dimming": "Triac, Dali"
+      },
+      {
+        "Code": "19924 6730",
+        "Structure": "Terra",
+        "Canopy": "Matte Black – 9005",
+        "Lamp": {
+          "type": "LED",
+          "temperature": "↙ 3000 K",
+          "wattage": "↙ 33 W",
+          "lumens": "↙ 6630 lm",
+          "current": "↙ 350+350 mA",
+          "CRI": "↙ CRI 90",
+          "macAdam": "↙ MacAdam 3-Step",
+          "more": "LED and driver included"
+        },
+        "Dimming": "Triac, Dali"
+      }
+    ]
+  }
+]

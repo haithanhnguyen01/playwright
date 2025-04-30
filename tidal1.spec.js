@@ -1,6 +1,6 @@
 // @ts-check
 import { test, expect } from '@playwright/test';
-
+import fs from 'fs';
 test("Tidal design with multiple variants", async ({ page }) => {
   await page.goto('https://www.lodes.com/en/products/tidal-2/?code=eu', { waitUntil: 'domcontentloaded' });
 
@@ -116,4 +116,5 @@ test("Tidal design with multiple variants", async ({ page }) => {
   }
 
   console.log(JSON.stringify(fullProducts, null, 2));
+  fs.writeFileSync('tidal_output1.json', JSON.stringify(fullProducts, null, 2));
 });
