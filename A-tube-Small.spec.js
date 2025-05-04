@@ -1,7 +1,7 @@
 // @ts-check
 import { test, expect } from '@playwright/test';
-
-test("A tube large", async ({ page }) => {
+import fs from 'fs';
+test("A tube small", async ({ page }) => {
   await page.goto('https://www.lodes.com/en/products/a-tube-nano-swing/?code=eu', { waitUntil: 'domcontentloaded' });
 
   try {
@@ -53,6 +53,11 @@ test("A tube large", async ({ page }) => {
         const parsedLamp2700 = parseLamp(lamp2700Text);
         const parsedLamp3000 = parseLamp(lamp3000Text);
 
+        const formatColorForURL = (colorName) =>
+          colorName.replace(/\s+/g, '')       // remove spaces
+                   .replace(/é/g, 'e')
+                   .replace(/[^\w]/g, '');
+
         if (table) {
           const rows = await table.$$('tr');
           for (const row of rows) {
@@ -75,10 +80,15 @@ test("A tube large", async ({ page }) => {
               const canopyAlt = canopyImg ? await canopyImg.getAttribute('alt') : 'N/A';
               const codeText = codeCell ? (await codeCell.innerText()).trim() : 'N/A';
 
+              const colorProduct = formatColorForURL(structureAlt);
+              const ColorUrl = `https://www.lodes.com/wp-content/uploads/2025/01/A-Tube-Nano-Swing-large-ceiling-${colorProduct}.png`;
+
+
               productDetails.push({
                 Code: codeText,
                 Structure: structureAlt,
                 Diffuser: canopyAlt,
+                ThumbnailImage: ColorUrl,
                 Lamp: parsedLamp2700
               });
             }
@@ -92,10 +102,14 @@ test("A tube large", async ({ page }) => {
               const canopyAlt = canopyImg ? await canopyImg.getAttribute('alt') : 'N/A';
               const codeText = codeCell ? (await codeCell.innerText()).trim() : 'N/A';
 
+              const colorProduct = formatColorForURL(structureAlt);
+              const ColorUrl = `https://www.lodes.com/wp-content/uploads/2025/01/A-Tube-Nano-Swing-large-ceiling-${colorProduct}.png`;
+
               productDetails.push({
                 Code: codeText,
                 Structure: structureAlt,
                 Diffuser: canopyAlt,
+                ThumbnailImage: ColorUrl,
                 Lamp: parsedLamp3000
               });
             }
@@ -112,4 +126,5 @@ test("A tube large", async ({ page }) => {
   
 
   console.log(JSON.stringify(fullProducts, null, 2));
+  fs.writeFileSync('A-tube-small.json', JSON.stringify(fullProducts, null, 2), 'utf-8');
 });
