@@ -54,6 +54,12 @@ test("Tidal design with multiple variants", async ({ page }) => {
         const parsedLamp2700 = parseLamp(lamp2700Text);
         const parsedLamp3000 = parseLamp(lamp3000Text);
 
+        const formatColorForURL = (colorName) =>
+          colorName.replace(/\s+/g, '')       // remove spaces
+                   .replace(/é/g, 'e')
+                   .replace(/[^\w]/g, '');
+    
+
         if (table) {
           const rows = await table.$$('tr');
           for (const row of rows) {
@@ -72,15 +78,20 @@ test("Tidal design with multiple variants", async ({ page }) => {
               const structureImg = await structureRows[i].$('td a img');
               const canopyImg = await canopyRows[i].$('td a img');
               const codeCell = await codeRows[i].$('td');
+
               const structureAlt = structureImg ? await structureImg.getAttribute('alt') : 'N/A';
               const canopyAlt = canopyImg ? await canopyImg.getAttribute('alt') : 'N/A';
               const codeText = codeCell ? (await codeCell.innerText()).trim() : 'N/A';
+            
+              const colorProduct = formatColorForURL(structureAlt);
+              const ColorUrl = `https://www.lodes.com/wp-content/uploads/2025/01/Tidal-Suspension-${colorProduct}.png`;
 
               productDetails.push({
                 Code: codeText,
                 Structure: structureAlt,
                 Canopy: canopyAlt,
                 Lamp: parsedLamp2700,
+                ThumbnailImage: ColorUrl,
                 Dimming: 'Triac, Dali'
               });
             }
@@ -90,15 +101,21 @@ test("Tidal design with multiple variants", async ({ page }) => {
               const structureImg = await structureRows[i].$('td a img');
               const canopyImg = await canopyRows[i].$('td a img');
               const codeCell = await codeRows2[i].$('td');
+              
               const structureAlt = structureImg ? await structureImg.getAttribute('alt') : 'N/A';
               const canopyAlt = canopyImg ? await canopyImg.getAttribute('alt') : 'N/A';
               const codeText = codeCell ? (await codeCell.innerText()).trim() : 'N/A';
+            
+              const colorProduct = formatColorForURL(structureAlt);
+              const ColorUrl = `https://www.lodes.com/wp-content/uploads/2025/01/Tidal-Suspension-${colorProduct}.png`;
+
 
               productDetails.push({
                 Code: codeText,
                 Structure: structureAlt,
                 Canopy: canopyAlt,
                 Lamp: parsedLamp3000,
+                ThumbnailImage: ColorUrl,
                 Dimming: 'Triac, Dali'
               });
             }
