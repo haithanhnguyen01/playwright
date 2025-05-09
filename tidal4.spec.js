@@ -23,6 +23,15 @@ test("Tidal design with multiple variants", async ({ page }) => {
       const productName = await page.locator('.left.col25.font26.serif').nth(3).innerText();
       const image = await page.locator('.img-tecnica-td .img-tecnica').nth(3);
       const imageSrc = await image.getAttribute('src');
+      const description = await page.locator('.font26.serif.text-more').first().innerText();
+
+      const ImageGallery = await page.locator('.img-gallery img').all();
+      const ImageUrls = [];
+
+      for (const img of ImageGallery) {
+        const src = await img.getAttribute('src');
+        ImageUrls.push(src);
+      }
 
       let productDetails = [];
 
@@ -126,6 +135,8 @@ test("Tidal design with multiple variants", async ({ page }) => {
       fullProducts.push({
         "Product Name": productName.trim(),
         "Dimension Drawing": imageSrc || 'N/A',
+        "Description": description.trim() || 'N/A',
+        "Image Gallery": ImageUrls,
         "Product Details": productDetails
       });
     }

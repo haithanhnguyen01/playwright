@@ -1,0 +1,197 @@
+[
+  {
+    "Product Name": "A-Tube Nano Swing small",
+    "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2025/01/A–Tube-Nano-Swing-small-1.png",
+    "Description": "A-Tube Nano reinterprets the A-Tube collection with a lamp that expresses light in its purest form, tracing an elegant luminous line in space As thin as a pin, it draws its intrinsic strength from the simplicity of a graphic element, the line, which gently defines the atmosphere with a design that is as simple and light as it is refined and functional.",
+    "Image Gallery": [
+      "https://www.lodes.com/wp-content/uploads/2025/01/A–Tube-Nano-Swing-Ceiling-03.jpg",
+      "https://www.lodes.com/wp-content/uploads/2025/01/A–Tube-Nano-Swing-Ceiling-04.jpg",
+      "https://www.lodes.com/wp-content/uploads/2025/01/A–Tube-Nano-Swing-Ceiling-05.jpg",
+      "https://www.lodes.com/wp-content/uploads/2025/01/A–Tube-Nano-Swing-Ceiling-06.jpg",
+      "https://www.lodes.com/wp-content/uploads/2025/01/A–Tube-Nano-Swing-Ceiling-01.jpg",
+      "https://www.lodes.com/wp-content/uploads/2025/01/A–Tube-Nano-Swing-Ceiling-02-scaled.jpg"
+    ],
+    "Product Details": [
+      {
+        "Code": "15834 2020",
+        "Structure": "Matte Black – 9005",
+        "Diffuser": "Clear",
+        "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/A-Tube-Nano-Swing-large-ceiling-MatteBlack9005.png",
+        "Lamp": {
+          "type": "LED",
+          "temperature": "2700 K",
+          "wattage": "3 W",
+          "lumens": "450 lm",
+          "current": "350 mA",
+          "CRI": "CRI 90",
+          "macAdam": "MacAdam 3-Step"
+        }
+      },
+      {
+        "Code": "15834 4020",
+        "Structure": "Chrome",
+        "Diffuser": "Clear",
+        "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/A-Tube-Nano-Swing-large-ceiling-Chrome.png",
+        "Lamp": {
+          "type": "LED",
+          "temperature": "2700 K",
+          "wattage": "3 W",
+          "lumens": "450 lm",
+          "current": "350 mA",
+          "CRI": "CRI 90",
+          "macAdam": "MacAdam 3-Step"
+        }
+      },
+      {
+        "Code": "15834 4520",
+        "Structure": "Champagne",
+        "Diffuser": "Clear",
+        "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/A-Tube-Nano-Swing-large-ceiling-Champagne.png",
+        "Lamp": {
+          "type": "LED",
+          "temperature": "2700 K",
+          "wattage": "3 W",
+          "lumens": "450 lm",
+          "current": "350 mA",
+          "CRI": "CRI 90",
+          "macAdam": "MacAdam 3-Step"
+        }
+      },
+      {
+        "Code": "15834 5020",
+        "Structure": "Gold",
+        "Diffuser": "Clear",
+        "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/A-Tube-Nano-Swing-large-ceiling-Gold.png",
+        "Lamp": {
+          "type": "LED",
+          "temperature": "2700 K",
+          "wattage": "3 W",
+          "lumens": "450 lm",
+          "current": "350 mA",
+          "CRI": "CRI 90",
+          "macAdam": "MacAdam 3-Step"
+        }
+      },
+      {
+        "Code": "15834 5520",
+        "Structure": "Rose Gold",
+        "Diffuser": "Clear",
+        "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/A-Tube-Nano-Swing-large-ceiling-RoseGold.png",
+        "Lamp": {
+          "type": "LED",
+          "temperature": "2700 K",
+          "wattage": "3 W",
+          "lumens": "450 lm",
+          "current": "350 mA",
+          "CRI": "CRI 90",
+          "macAdam": "MacAdam 3-Step"
+        }
+      },
+      {
+        "Code": "15834 6720",
+        "Structure": "Terra",
+        "Diffuser": "Clear",
+        "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/A-Tube-Nano-Swing-large-ceiling-Terra.png",
+        "Lamp": {
+          "type": "LED",
+          "temperature": "2700 K",
+          "wattage": "3 W",
+          "lumens": "450 lm",
+          "current": "350 mA",
+          "CRI": "CRI 90",
+          "macAdam": "MacAdam 3-Step"
+        }
+      },
+      {
+        "Code": "15834 2035",
+        "Structure": "Matte Black – 9005",
+        "Diffuser": "Clear",
+        "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/A-Tube-Nano-Swing-large-ceiling-MatteBlack9005.png",
+        "Lamp": {
+          "type": "LED",
+          "temperature": "3000 K",
+          "wattage": "3 W",
+          "lumens": "480 lm",
+          "current": "350 mA",
+          "CRI": "CRI 90",
+          "macAdam": "MacAdam 3-Step"
+        }
+      },
+      {
+        "Code": "15834 4035",
+        "Structure": "Chrome",
+        "Diffuser": "Clear",
+        "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/A-Tube-Nano-Swing-large-ceiling-Chrome.png",
+        "Lamp": {
+          "type": "LED",
+          "temperature": "3000 K",
+          "wattage": "3 W",
+          "lumens": "480 lm",
+          "current": "350 mA",
+          "CRI": "CRI 90",
+          "macAdam": "MacAdam 3-Step"
+        }
+      },
+      {
+        "Code": "15834 4535",
+        "Structure": "Champagne",
+        "Diffuser": "Clear",
+        "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/A-Tube-Nano-Swing-large-ceiling-Champagne.png",
+        "Lamp": {
+          "type": "LED",
+          "temperature": "3000 K",
+          "wattage": "3 W",
+          "lumens": "480 lm",
+          "current": "350 mA",
+          "CRI": "CRI 90",
+          "macAdam": "MacAdam 3-Step"
+        }
+      },
+      {
+        "Code": "15834 5035",
+        "Structure": "Gold",
+        "Diffuser": "Clear",
+        "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/A-Tube-Nano-Swing-large-ceiling-Gold.png",
+        "Lamp": {
+          "type": "LED",
+          "temperature": "3000 K",
+          "wattage": "3 W",
+          "lumens": "480 lm",
+          "current": "350 mA",
+          "CRI": "CRI 90",
+          "macAdam": "MacAdam 3-Step"
+        }
+      },
+      {
+        "Code": "15834 5535",
+        "Structure": "Rose Gold",
+        "Diffuser": "Clear",
+        "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/A-Tube-Nano-Swing-large-ceiling-RoseGold.png",
+        "Lamp": {
+          "type": "LED",
+          "temperature": "3000 K",
+          "wattage": "3 W",
+          "lumens": "480 lm",
+          "current": "350 mA",
+          "CRI": "CRI 90",
+          "macAdam": "MacAdam 3-Step"
+        }
+      },
+      {
+        "Code": "15834 6735",
+        "Structure": "Terra",
+        "Diffuser": "Clear",
+        "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/A-Tube-Nano-Swing-large-ceiling-Terra.png",
+        "Lamp": {
+          "type": "LED",
+          "temperature": "3000 K",
+          "wattage": "3 W",
+          "lumens": "480 lm",
+          "current": "350 mA",
+          "CRI": "CRI 90",
+          "macAdam": "MacAdam 3-Step"
+        }
+      }
+    ]
+  }
+]
