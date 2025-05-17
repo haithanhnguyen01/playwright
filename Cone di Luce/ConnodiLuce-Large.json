@@ -1,0 +1,59 @@
+[
+  {
+    "Product Name": "Cono di Luce large",
+    "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2024/01/Cono-si-Luce-large.png",
+    "Description": "The technology enclosed in Cono di Luce defines its identity. Using a flexible printed circuit board in a groundbreaking way, encapsulated within an element as simple as a transparent Pyrex® cone, the lamp exudes a dualism between on and off that is easily discernible.\n\n \n\nThe frame, also made of PCB, thanks to its 1.6 mm thickness, has several functions: to provide support for the lamp and enable it to be switched on, as well as to keep the PCB sheet in the right position.\n\n \n\nWhen illuminated, Cono di Luce reveals its true decorative essence, boasting an optical interplay of lights, shadows, and overlapping patterns that showcase the designer’s creative flair and Lodes’ renowned manufacturing expertise.\n\n \n\nIt is available in three frame finishes: red, grey and gold, and in two variants, table and suspension.\n\n \n\nCono di Luce is proposed as a design element for sophisticated environments, embodying the values shared by Lodes and Ron Arad: to create a collection that is both accessible and highly efficient in light.",
+    "Image Gallery": [
+      "https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-03.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-05.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-08.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-09.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-01.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-02.jpg"
+    ],
+    "Product Details": [
+      {
+        "Code": "21011 3227",
+        "OutsideDiffuser": "Clear",
+        "InsideDiffuser": "Grey",
+        "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-large-Grey-1.png",
+        "Lamp": {
+          "temperature": "2700 K",
+          "wattage": "7 W",
+          "lumens": "1307 lm",
+          "current": "350 mA",
+          "CRI": "CRI 90",
+          "macAdam": "MacAdam 3-Step"
+        }
+      },
+      {
+        "Code": "21011 5027",
+        "OutsideDiffuser": "Clear",
+        "InsideDiffuser": "Gold",
+        "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-large-Gold-1.png",
+        "Lamp": {
+          "temperature": "2700 K",
+          "wattage": "7 W",
+          "lumens": "1307 lm",
+          "current": "350 mA",
+          "CRI": "CRI 90",
+          "macAdam": "MacAdam 3-Step"
+        }
+      },
+      {
+        "Code": "21011 6027",
+        "OutsideDiffuser": "Clear",
+        "InsideDiffuser": "Red",
+        "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-large-Red-1.png",
+        "Lamp": {
+          "temperature": "2700 K",
+          "wattage": "7 W",
+          "lumens": "1307 lm",
+          "current": "350 mA",
+          "CRI": "CRI 90",
+          "macAdam": "MacAdam 3-Step"
+        }
+      }
+    ]
+  }
+]

@@ -14,14 +14,14 @@ test("Tidal design with multiple variants", async ({ page }) => {
 
     const variants = await page.$$('.variante');
 
-    await variants[3].click();
+    await variants[1].click();
     await page.waitForTimeout(800);
 
-    const body = page.locator('.body-variante').nth(3);
+    const body = page.locator('.body-variante').nth(1);
     console.log(`body: ${body.isVisible()}`);
     if (await body.isVisible()) {
-      const productName = await page.locator('.left.col25.font26.serif').nth(3).innerText();
-      const image = await page.locator('.img-tecnica-td .img-tecnica').nth(3);
+      const productName = await page.locator('.left.col25.font26.serif').nth(1).innerText();
+      const image = await page.locator('.img-tecnica-td .img-tecnica').nth(1);
       const imageSrc = await image.getAttribute('src');
       const description = await page.locator('.font26.serif.text-more').first().innerText();
 
@@ -37,7 +37,8 @@ test("Tidal design with multiple variants", async ({ page }) => {
 
       // Only extract table and lamps for the first variant
    
-        const table = await page.$('table.table-variante.marginb40');
+        const tables = await page.$$('table.table-variante.marginb40');
+        const table = tables[1];
         const lampDivs = body.locator('div.single-lampadina');
         const lamp2700Text = await lampDivs.nth(0).innerText();
         const lamp3000Text = await lampDivs.nth(1).innerText();
@@ -45,7 +46,7 @@ test("Tidal design with multiple variants", async ({ page }) => {
         const parseLamp = (text) => {
           const lines = text
             .split('\n')
-            .map(line => line.replace(/^\u21d9\s?/, '').trim())
+            .map(line => line.replace(/^\u2199\s?/, '').trim())
             .filter(line => line.length > 0);
 
           return {
@@ -67,7 +68,6 @@ test("Tidal design with multiple variants", async ({ page }) => {
           colorName.replace(/\s+/g, '')       // remove spaces
                    .replace(/é/g, 'e')
                    .replace(/[^\w]/g, '');
-    
 
         if (table) {
           const rows = await table.$$('tr');
@@ -87,11 +87,10 @@ test("Tidal design with multiple variants", async ({ page }) => {
               const structureImg = await structureRows[i].$('td a img');
               const canopyImg = await canopyRows[i].$('td a img');
               const codeCell = await codeRows[i].$('td');
-
               const structureAlt = structureImg ? await structureImg.getAttribute('alt') : 'N/A';
               const canopyAlt = canopyImg ? await canopyImg.getAttribute('alt') : 'N/A';
               const codeText = codeCell ? (await codeCell.innerText()).trim() : 'N/A';
-            
+
               const colorProduct = formatColorForURL(structureAlt);
               const ColorUrl = `https://www.lodes.com/wp-content/uploads/2025/01/Tidal-Suspension-${colorProduct}.png`;
 
@@ -110,14 +109,12 @@ test("Tidal design with multiple variants", async ({ page }) => {
               const structureImg = await structureRows[i].$('td a img');
               const canopyImg = await canopyRows[i].$('td a img');
               const codeCell = await codeRows2[i].$('td');
-              
               const structureAlt = structureImg ? await structureImg.getAttribute('alt') : 'N/A';
               const canopyAlt = canopyImg ? await canopyImg.getAttribute('alt') : 'N/A';
               const codeText = codeCell ? (await codeCell.innerText()).trim() : 'N/A';
-            
+
               const colorProduct = formatColorForURL(structureAlt);
               const ColorUrl = `https://www.lodes.com/wp-content/uploads/2025/01/Tidal-Suspension-${colorProduct}.png`;
-
 
               productDetails.push({
                 Code: codeText,
@@ -143,5 +140,5 @@ test("Tidal design with multiple variants", async ({ page }) => {
   
 
   console.log(JSON.stringify(fullProducts, null, 2));
-  fs.writeFileSync('tidal_output4.json', JSON.stringify(fullProducts, null, 2));
+  fs.writeFileSync('tidal_output2.json', JSON.stringify(fullProducts, null, 2));
 });

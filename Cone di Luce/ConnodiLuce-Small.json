@@ -1,0 +1,59 @@
+[
+  {
+    "Product Name": "Cono di Luce small",
+    "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2024/01/Cono-si-Luce-small.png",
+    "Description": "Lodes and internationally renowned artist and designer Ron Arad have joined forces to create Cono di Luce, a one-of-a-kind suspension lamp that combines the former’s cutting-edge expertise with the latter’s creativity.\n",
+    "Image Gallery": [
+      "https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-03.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-05.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-08.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-09.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-01.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-02.jpg"
+    ],
+    "Product Details": [
+      {
+        "Code": "21010 3227",
+        "OutsideDiffuser": "Clear",
+        "InsideDiffuser": "Grey",
+        "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-small-Grey-1.png",
+        "Lamp": {
+          "temperature": "2700 K",
+          "wattage": "7 W",
+          "lumens": "1307 lm",
+          "current": "350 mA",
+          "CRI": "CRI 90",
+          "macAdam": "MacAdam 3-Step"
+        }
+      },
+      {
+        "Code": "21010 5027",
+        "OutsideDiffuser": "Clear",
+        "InsideDiffuser": "Gold",
+        "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-small-Gold-1.png",
+        "Lamp": {
+          "temperature": "2700 K",
+          "wattage": "7 W",
+          "lumens": "1307 lm",
+          "current": "350 mA",
+          "CRI": "CRI 90",
+          "macAdam": "MacAdam 3-Step"
+        }
+      },
+      {
+        "Code": "21010 6027",
+        "OutsideDiffuser": "Clear",
+        "InsideDiffuser": "Red",
+        "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-small-Red-1.png",
+        "Lamp": {
+          "temperature": "2700 K",
+          "wattage": "7 W",
+          "lumens": "1307 lm",
+          "current": "350 mA",
+          "CRI": "CRI 90",
+          "macAdam": "MacAdam 3-Step"
+        }
+      }
+    ]
+  }
+]

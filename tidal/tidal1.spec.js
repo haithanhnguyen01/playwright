@@ -37,8 +37,9 @@ test("Tidal design with multiple variants", async ({ page }) => {
       let productDetails = [];
 
       // Only extract table and lamps for the first variant
-      if (variantIndex === 0) {
-        const table = await page.$('table.table-variante.marginb40');
+ 
+        const tables = await page.$$('table.table-variante.marginb40');
+        const table = tables[0];
         const lampDivs = page.locator('div.single-lampadina');
         const lamp2700Text = await lampDivs.nth(0).innerText();
         const lamp3000Text = await lampDivs.nth(1).innerText();
@@ -46,7 +47,7 @@ test("Tidal design with multiple variants", async ({ page }) => {
         const parseLamp = (text) => {
           const lines = text
             .split('\n')
-            .map(line => line.replace(/^\u21d9\s?/, '').trim())
+            .map(line => line.replace(/^\u2199\s?/, '').trim())
             .filter(line => line.length > 0);
 
           return {
@@ -127,7 +128,7 @@ test("Tidal design with multiple variants", async ({ page }) => {
             }
           }
         }
-      }
+      
 
       fullProducts.push({
         "Product Name": productName.trim(),

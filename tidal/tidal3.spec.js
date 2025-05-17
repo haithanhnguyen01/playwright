@@ -18,7 +18,6 @@ test("Tidal design with multiple variants", async ({ page }) => {
     await page.waitForTimeout(800);
 
     const body = page.locator('.body-variante').nth(2);
-    console.log(`body: ${body.isVisible()}`);
     if (await body.isVisible()) {
       const productName = await page.locator('.left.col25.font26.serif').nth(2).innerText();
       const image = await page.locator('.img-tecnica-td .img-tecnica').nth(2);
@@ -37,7 +36,8 @@ test("Tidal design with multiple variants", async ({ page }) => {
 
       // Only extract table and lamps for the first variant
    
-        const table = await page.$('table.table-variante.marginb40');
+        const tables = await page.$$('table.table-variante.marginb40');
+        const table = tables[2];
         const lampDivs = body.locator('div.single-lampadina');
         const lamp2700Text = await lampDivs.nth(0).innerText();
         const lamp3000Text = await lampDivs.nth(1).innerText();
@@ -45,7 +45,7 @@ test("Tidal design with multiple variants", async ({ page }) => {
         const parseLamp = (text) => {
           const lines = text
             .split('\n')
-            .map(line => line.replace(/^\u21d9\s?/, '').trim())
+            .map(line => line.replace(/^\u2199\s?/, '').trim())
             .filter(line => line.length > 0);
 
           return {
