@@ -1,0 +1,554 @@
+[
+  {
+    "FamilyName": "Shift",
+    "FamilyImage": [
+      "https://www.lodes.com/wp-content/uploads/2025/01/Shift-Wall-07.jpg",
+      "https://www.lodes.com/wp-content/uploads/2025/01/Shift-Wall-08.jpg",
+      "https://www.lodes.com/wp-content/uploads/2025/01/Shift-Wall-05.jpg",
+      "https://www.lodes.com/wp-content/uploads/2025/01/Shift-Wall-06.jpg",
+      "https://www.lodes.com/wp-content/uploads/2025/01/Shift-Wall-03.jpg",
+      "https://www.lodes.com/wp-content/uploads/2025/01/Shift-Wall-04.jpg",
+      "https://www.lodes.com/wp-content/uploads/2025/01/Shift-Wall-01.jpg",
+      "https://www.lodes.com/wp-content/uploads/2025/01/Shift-Wall-02-scaled.jpg"
+    ],
+    "Description": "Shift is a wall lamp with impressive luminous power. Designed by Marco Piva, it redefines the concept of a wall lamp, integrating with spaces in perfect harmony: compact and discreet, its neutral finishes further enhance its ability to blend into its surroundings, almost disappearing to allow the light to take centre stage, fostering and enriching its interplay with the space."
+  },
+  [
+    {
+      "Product Name": "Shift Large",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-large.png",
+      "Product Details": [
+        {
+          "Code": "21552 1027",
+          "Structure": "Matte White – 9010",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "32,5 W",
+            "lumens": "5085 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-large-MatteWhite.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21552 2027",
+          "Structure": "Matte Black – 9005",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "32,5 W",
+            "lumens": "5085 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-large-MatteBlack.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21552 4527",
+          "Structure": "Extra Matte Champagne",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "32,5 W",
+            "lumens": "5085 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-large-MatteChampagne.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21552 6927",
+          "Structure": "Natural Brown",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "32,5 W",
+            "lumens": "5085 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-large-NaturalBrown.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21552 1030",
+          "Structure": "Matte White – 9010",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "32,5 W",
+            "lumens": "5255 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-large-MatteWhite.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21552 2030",
+          "Structure": "Matte Black – 9005",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "32,5 W",
+            "lumens": "5255 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-large-MatteBlack.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21552 4530",
+          "Structure": "Extra Matte Champagne",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "32,5 W",
+            "lumens": "5255 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-large-MatteChampagne.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21552 6930",
+          "Structure": "Natural Brown",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "32,5 W",
+            "lumens": "5255 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-large-NaturalBrown.png",
+          "Dimming": "Triac, Dali"
+        }
+      ]
+    },
+    {
+      "Product Name": "Shift Small",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-small.png",
+      "Product Details": [
+        {
+          "Code": "21551 1027",
+          "Structure": "Matte White – 9010",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "32,5 W",
+            "lumens": "5085 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-small-MatteWhite.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21551 2027",
+          "Structure": "Matte Black – 9005",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "32,5 W",
+            "lumens": "5085 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-small-MatteBlack.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21551 4527",
+          "Structure": "Extra Matte Champagne",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "32,5 W",
+            "lumens": "5085 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-small-MatteChampagne.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21551 6927",
+          "Structure": "Natural Brown",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "32,5 W",
+            "lumens": "5085 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-small-NaturalBrown.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21551 1030",
+          "Structure": "Matte White – 9010",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "32,5 W",
+            "lumens": "5255 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-small-MatteWhite.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21551 2030",
+          "Structure": "Matte Black – 9005",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "32,5 W",
+            "lumens": "5255 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-small-MatteBlack.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21551 4530",
+          "Structure": "Extra Matte Champagne",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "32,5 W",
+            "lumens": "5255 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-small-MatteChampagne.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21551 6930",
+          "Structure": "Natural Brown",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "32,5 W",
+            "lumens": "5255 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-small-NaturalBrown.png",
+          "Dimming": "Triac, Dali"
+        }
+      ]
+    },
+    {
+      "Product Name": "Shift Large Dali",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-large.png",
+      "Product Details": [
+        {
+          "Code": "21554 1027",
+          "Structure": "Matte White – 9010",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "32,5 W",
+            "lumens": "5085 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-large-MatteWhite.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21554 2027",
+          "Structure": "Matte Black – 9005",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "32,5 W",
+            "lumens": "5085 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-large-MatteBlack.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21554 4527",
+          "Structure": "Extra Matte Champagne",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "32,5 W",
+            "lumens": "5085 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-large-MatteChampagne.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21554 6927",
+          "Structure": "Natural Brown",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "32,5 W",
+            "lumens": "5085 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-large-NaturalBrown.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21554 1030",
+          "Structure": "Matte White – 9010",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "32,5 W",
+            "lumens": "5255 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-large-MatteWhite.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21554 2030",
+          "Structure": "Matte Black – 9005",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "32,5 W",
+            "lumens": "5255 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-large-MatteBlack.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21554 4530",
+          "Structure": "Extra Matte Champagne",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "32,5 W",
+            "lumens": "5255 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-large-MatteChampagne.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21554 6930",
+          "Structure": "Natural Brown",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "32,5 W",
+            "lumens": "5255 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-large-NaturalBrown.png",
+          "Dimming": "Triac, Dali"
+        }
+      ]
+    },
+    {
+      "Product Name": "Shift Small Dali",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-small.png",
+      "Product Details": [
+        {
+          "Code": "21553 1027",
+          "Structure": "Matte White – 9010",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "32,5 W",
+            "lumens": "5085 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-small-MatteWhite.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21553 2027",
+          "Structure": "Matte Black – 9005",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "32,5 W",
+            "lumens": "5085 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-small-MatteBlack.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21553 4527",
+          "Structure": "Extra Matte Champagne",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "32,5 W",
+            "lumens": "5085 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-small-MatteChampagne.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21553 6927",
+          "Structure": "Natural Brown",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "32,5 W",
+            "lumens": "5085 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-small-NaturalBrown.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21553 1030",
+          "Structure": "Matte White – 9010",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "32,5 W",
+            "lumens": "5255 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-small-MatteWhite.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21553 2030",
+          "Structure": "Matte Black – 9005",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "32,5 W",
+            "lumens": "5255 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-small-MatteBlack.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21553 4530",
+          "Structure": "Extra Matte Champagne",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "32,5 W",
+            "lumens": "5255 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-small-MatteChampagne.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21553 6930",
+          "Structure": "Natural Brown",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "32,5 W",
+            "lumens": "5255 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Shift-small-NaturalBrown.png",
+          "Dimming": "Triac, Dali"
+        }
+      ]
+    }
+  ]
+]

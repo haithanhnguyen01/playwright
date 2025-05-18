@@ -3,7 +3,7 @@
 import { test, expect } from '@playwright/test';
 import fs from 'fs';
 test("Tidal design with multiple variants", async ({ page }) => {
-  await page.goto('https://www.lodes.com/en/products/cross/?code=eu', { waitUntil: 'domcontentloaded' });
+  await page.goto('https://www.lodes.com/en/products/glass-drop/?code=eu', { waitUntil: 'domcontentloaded' });
 
   try {
     const rejectCookies = page.getByRole('button', { name: 'Reject all' });
@@ -110,11 +110,11 @@ test("Tidal design with multiple variants", async ({ page }) => {
             const codeText = codeCell ? (await codeCell.innerText()).trim() : 'N/A';
 
             const colorProduct = formatColorForURL(structureAlt);
-            const ColorUrl = `https://www.lodes.com/wp-content/uploads/2024/05/Cross-1.png`;
+            const ColorUrl = `https://www.lodes.com/wp-content/uploads/2021/03/Glass-Drop-${colorProduct}.png`;
 
             productDetails.push({
               Code: codeText,
-              Structure: structureAlt,
+              Diffuser: structureAlt,
               // Diffuser: canopyAlt,
               Lamp: parsedLamp2700,
               ThumbnailImage: ColorUrl,

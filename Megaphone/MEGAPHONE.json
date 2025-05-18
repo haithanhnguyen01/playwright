@@ -1,0 +1,44 @@
+[
+  {
+    "FamilyName": "MEGAPHONE",
+    "FamilyImage": [
+      "https://www.lodes.com/wp-content/uploads/2024/05/Megaphone-06.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/05/Megaphone-05.jpg"
+    ],
+    "Description": "Megaphone compromises a black steel base and a blown glass lampshade in metallic finishes, Crhome or Glossy Smoke. The use of blown glass for the diffuser embodies the craftsmanship and material expertise behind the collection. This lamp is perfect for home use, whether placed next to a sofa in a living room or on a sideboard, adding a touch of elegance to the space. However, its versatility extends to use in hospitality spaces."
+  },
+  [
+    {
+      "Product Name": "MEGAPHONE",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2024/05/Megaphone.png",
+      "Product Details": [
+        {
+          "Code": "52580 4000",
+          "Structure": "Chrome",
+          "Lamp": {
+            "ShapeandScrewbase": "E27 T30",
+            "type": "Tubular LED",
+            "wattage": "1x Max 25 W",
+            "WiringandLength": "W/L max 30 cm",
+            "WiringandLengthinInches": "W/L max 11,81\""
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/05/Megaphone-Chrome.png",
+          "Dimming": "N/A"
+        },
+        {
+          "Code": "52580 4300",
+          "Structure": "Glossy Smoke",
+          "Lamp": {
+            "ShapeandScrewbase": "E27 T30",
+            "type": "Tubular LED",
+            "wattage": "1x Max 25 W",
+            "WiringandLength": "W/L max 30 cm",
+            "WiringandLengthinInches": "W/L max 11,81\""
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/05/Megaphone-GlossySmoke.png",
+          "Dimming": "N/A"
+        }
+      ]
+    }
+  ]
+]

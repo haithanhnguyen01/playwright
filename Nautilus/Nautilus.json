@@ -1,0 +1,221 @@
+[
+  {
+    "FamilyName": "Nautilus",
+    "FamilyImage": [
+      "https://www.lodes.com/wp-content/uploads/2021/03/Nautilus-Ceiling-02.jpg",
+      "https://www.lodes.com/wp-content/uploads/2021/03/Nautilus-Ceiling-03.jpg",
+      "https://www.lodes.com/wp-content/uploads/2021/03/Nautilus-Ceiling-05.jpg",
+      "https://www.lodes.com/wp-content/uploads/2021/03/Nautilus_matte-black-scaled.jpg",
+      "https://www.lodes.com/wp-content/uploads/2021/03/Nautilus_matte-champagne-scaled.jpg",
+      "https://www.lodes.com/wp-content/uploads/2021/03/Nautilus_matte-white-scaled.jpg",
+      "https://www.lodes.com/wp-content/uploads/2021/03/Nautilus-25-02-scaled.jpg"
+    ],
+    "Description": "Strong design and leading-edge technology come together in this family of lamps characterised by a convex lens that projects the LED light wherever its needed or most preferred, for a truly efficient and personalised result. Versatile and dynamic, either on the wall or ceiling in a variety of versions and finishes, Nautilus lamps satisfy a full range of lighting needs, whether functional or purely decorative, in both residential and professional contexts. Nautilus is now available with a dim-to-warm function, which allows users to interact by adjusting the intensity of the LED light source from 2200 to 2700 kelvin."
+  },
+  [
+    {
+      "Product Name": "Nautilus",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2021/03/Nautilus-Ceiling-1.png",
+      "Product Details": [
+        {
+          "Code": "16530 1027",
+          "Canopy": "Matte White – 9010",
+          "Lamp": {
+            "type": "AC LED",
+            "temperature": "2700 K",
+            "wattage": "12 W",
+            "lumens": "995 lm",
+            "current": "220–240 V",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3–Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2021/03/Nautilus-Ceiling-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "16530 2027",
+          "Canopy": "Matte Black – 9005",
+          "Lamp": {
+            "type": "AC LED",
+            "temperature": "2700 K",
+            "wattage": "12 W",
+            "lumens": "995 lm",
+            "current": "220–240 V",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3–Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2021/03/Nautilus-Ceiling-Black.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "16530 4527",
+          "Canopy": "Matte Champagne",
+          "Lamp": {
+            "type": "AC LED",
+            "temperature": "2700 K",
+            "wattage": "12 W",
+            "lumens": "995 lm",
+            "current": "220–240 V",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3–Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2021/03/Nautilus-Ceiling-Champagne.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "16530 1030",
+          "Canopy": "Matte White – 9010",
+          "Lamp": {
+            "type": "AC LED",
+            "temperature": "3000 K",
+            "wattage": "12 W",
+            "lumens": "1085 lm",
+            "current": "220–240 V",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3–Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2021/03/Nautilus-Ceiling-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "16530 2030",
+          "Canopy": "Matte Black – 9005",
+          "Lamp": {
+            "type": "AC LED",
+            "temperature": "3000 K",
+            "wattage": "12 W",
+            "lumens": "1085 lm",
+            "current": "220–240 V",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3–Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2021/03/Nautilus-Ceiling-Black.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "16530 4530",
+          "Canopy": "Matte Champagne",
+          "Lamp": {
+            "type": "AC LED",
+            "temperature": "3000 K",
+            "wattage": "12 W",
+            "lumens": "1085 lm",
+            "current": "220–240 V",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3–Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2021/03/Nautilus-Ceiling-Champagne.png",
+          "Dimming": "Triac, Dali"
+        }
+      ]
+    },
+    {
+      "Product Name": "Nautilus Spot",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2021/03/Nautilus-Spot.png",
+      "Product Details": [
+        {
+          "Code": "16560 1027",
+          "Canopy": "Matte White – 9010",
+          "Lamp": {
+            "type": "AC LED",
+            "temperature": "2700 K",
+            "wattage": "12 W",
+            "lumens": "995 lm",
+            "current": "220–240 V",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3–Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2021/03/Nautilus-Spot-Ceiling-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "16560 2027",
+          "Canopy": "Matte Black – 9005",
+          "Lamp": {
+            "type": "AC LED",
+            "temperature": "2700 K",
+            "wattage": "12 W",
+            "lumens": "995 lm",
+            "current": "220–240 V",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3–Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2021/03/Nautilus-Spot-Ceiling-Black.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "16560 4527",
+          "Canopy": "Matte Champagne",
+          "Lamp": {
+            "type": "AC LED",
+            "temperature": "2700 K",
+            "wattage": "12 W",
+            "lumens": "995 lm",
+            "current": "220–240 V",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3–Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2021/03/Nautilus-Spot-Ceiling-Champagne.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "16560 1030",
+          "Canopy": "Matte White – 9010",
+          "Lamp": {
+            "type": "AC LED",
+            "temperature": "3000 K",
+            "wattage": "12 W",
+            "lumens": "1085 lm",
+            "current": "220–240 V",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3–Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2021/03/Nautilus-Spot-Ceiling-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "16560 2030",
+          "Canopy": "Matte Black – 9005",
+          "Lamp": {
+            "type": "AC LED",
+            "temperature": "3000 K",
+            "wattage": "12 W",
+            "lumens": "1085 lm",
+            "current": "220–240 V",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3–Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2021/03/Nautilus-Spot-Ceiling-Black.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "16560 4530",
+          "Canopy": "Matte Champagne",
+          "Lamp": {
+            "type": "AC LED",
+            "temperature": "3000 K",
+            "wattage": "12 W",
+            "lumens": "1085 lm",
+            "current": "220–240 V",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3–Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2021/03/Nautilus-Spot-Ceiling-Champagne.png",
+          "Dimming": "Triac, Dali"
+        }
+      ]
+    }
+  ]
+]

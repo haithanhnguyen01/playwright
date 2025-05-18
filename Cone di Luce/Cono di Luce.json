@@ -1,0 +1,124 @@
+[
+  {
+    "FamilyName": "Cono di Luce",
+    "FamilyImage": [
+      "https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-03.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-05.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-08.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-09.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-01.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-02.jpg"
+    ],
+    "Description": "Lodes and internationally renowned artist and designer Ron Arad have joined forces to create Cono di Luce, a one-of-a-kind suspension lamp that combines the former’s cutting-edge expertise with the latter’s creativity."
+  },
+  [
+    {
+      "Product Name": "Cono di Luce small",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2024/01/Cono-si-Luce-small.png",
+      "Product Details": [
+        {
+          "Code": "21010 3227",
+          "Structure": "Clear",
+          "Diffuser": "Grey",
+          "Lamp": {
+            "temperature": "2700 K",
+            "wattage": "7 W",
+            "lumens": "1307 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-small-Grey-1.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21010 5027",
+          "Structure": "Clear",
+          "Diffuser": "Gold",
+          "Lamp": {
+            "temperature": "2700 K",
+            "wattage": "7 W",
+            "lumens": "1307 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-small-Gold-1.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21010 6027",
+          "Structure": "Clear",
+          "Diffuser": "Red",
+          "Lamp": {
+            "temperature": "2700 K",
+            "wattage": "7 W",
+            "lumens": "1307 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-small-Red-1.png",
+          "Dimming": "Triac, Dali"
+        }
+      ]
+    },
+    {
+      "Product Name": "Cono di Luce large",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2024/01/Cono-si-Luce-large.png",
+      "Product Details": [
+        {
+          "Code": "21011 3227",
+          "Structure": "Clear",
+          "Diffuser": "Grey",
+          "Lamp": {
+            "temperature": "2700 K",
+            "wattage": "7 W",
+            "lumens": "1307 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-large-Grey-1.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21011 5027",
+          "Structure": "Clear",
+          "Diffuser": "Gold",
+          "Lamp": {
+            "temperature": "2700 K",
+            "wattage": "7 W",
+            "lumens": "1307 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-large-Gold-1.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21011 6027",
+          "Structure": "Clear",
+          "Diffuser": "Red",
+          "Lamp": {
+            "temperature": "2700 K",
+            "wattage": "7 W",
+            "lumens": "1307 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-large-Red-1.png",
+          "Dimming": "Triac, Dali"
+        }
+      ]
+    }
+  ]
+]

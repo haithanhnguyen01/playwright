@@ -1,0 +1,28 @@
+[
+  {
+    "FamilyName": "CROSS",
+    "FamilyImage": [
+      "https://www.lodes.com/wp-content/uploads/2024/05/Cross-04.jpg",
+      null
+    ],
+    "Description": "This black metal detail creates a highly recognisable visual element but also serves as a structural support, adding stability to the lamp.The Cross design celebrates pure, triangular shapes and the beauty of functionality.\nThe lamp is designed to seamlessly blend with is surroundings, offering soft lighting. Cross has a subtle yet striking presence and creates warm and inviting amtosphere."
+  },
+  [
+    {
+      "Product Name": "CROSS",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2024/05/Cross.png",
+      "Product Details": [
+        {
+          "Code": "52420 5600",
+          "Structure": "Ivory",
+          "Lamp": {
+            "type": "E27 LED",
+            "wattage": "1x Max 25 W"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/05/Cross-1.png",
+          "Dimming": "N/A"
+        }
+      ]
+    }
+  ]
+]

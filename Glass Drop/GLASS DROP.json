@@ -1,0 +1,37 @@
+[
+  {
+    "FamilyName": "GLASS DROP",
+    "FamilyImage": [
+      "https://www.lodes.com/wp-content/uploads/2021/03/Glass-Drop-03.jpg"
+    ],
+    "Description": "Glass Drop is particularly striking in multiple compositions, like a piece of jewelry consisting of many pendants that combines functionality and design harmony.\n\n \n\nGlass Drop is also available in a pure white version that offers extreme versatility of setting."
+  },
+  [
+    {
+      "Product Name": "GLASS DROP",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2021/03/Glass-Drop-1.png",
+      "Product Details": [
+        {
+          "Code": "50420 1200",
+          "Diffuser": "White",
+          "Lamp": {
+            "type": "LED E27",
+            "wattage": "1 max 25 W"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2021/03/Glass-Drop-White.png",
+          "Dimming": "N/A"
+        },
+        {
+          "Code": "50420 4000",
+          "Diffuser": "Chrome",
+          "Lamp": {
+            "type": "LED E27",
+            "wattage": "1 max 25 W"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2021/03/Glass-Drop-Chrome.png",
+          "Dimming": "N/A"
+        }
+      ]
+    }
+  ]
+]

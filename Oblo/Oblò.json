@@ -1,0 +1,547 @@
+[
+  {
+    "FamilyName": "Oblò",
+    "FamilyImage": [
+      "https://www.lodes.com/wp-content/uploads/2024/09/Oblo_largemedium_rainbowazuresteel-scaled.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/09/17-Oblo-small-medium-and-large-scaled.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/09/Oblo_smal-azure-steel_large-clear-scaled.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/09/Oblo_silk-white-scaled.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/09/Oblo_large-silkwhite_small-glossysmoke_medium-clear-scaled.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/09/Oblo_small-clear-scaled.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/09/Oblo_rainbow-scaled.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/09/12-Oblo-small-and-medium_Clear-and-Silk-White-scaled.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/09/Oblo_large_azuresteel-scaled.jpg"
+    ],
+    "Description": "Oblò is a pendant lamp with a distinctly decorative character that combines Lodes’ expertise in versatile and modular lighting solutions with the unique and distinctive personality of Paola Navone – OTTO Studio. With its playful spirit and numerous references to the sea and the nautical world, Oblò evokes marine imagery and offers new insights into the use of Pyrex in lighting, shaping it like a liquid material into the product’s fluid silhouette."
+  },
+  [
+    {
+      "Product Name": "Oblò large",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2024/08/Oblo-large.png",
+      "Product Details": [
+        {
+          "Code": "21813 0027",
+          "Hook": "White",
+          "Diffuser": "Clear",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 W",
+            "lumens": "1280 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3- Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Oblo-large-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21813 1327",
+          "Hook": "White",
+          "Diffuser": "Silk White",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 W",
+            "lumens": "1280 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3- Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Oblo-large-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21813 0127",
+          "Hook": "White",
+          "Diffuser": "Rainbow",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 W",
+            "lumens": "1280 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3- Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Oblo-large-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21813 4327",
+          "Hook": "White",
+          "Diffuser": "Glossy Smoke",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 W",
+            "lumens": "1280 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3- Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Oblo-large-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21813 8627",
+          "Hook": "White",
+          "Diffuser": "Azure Steel",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 W",
+            "lumens": "1280 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3- Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Oblo-large-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21813 0030",
+          "Structure": "White",
+          "Diffuser": "Clear",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 W",
+            "lumens": "1300 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3- Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "//www.lodes.com/wp-content/uploads/2024/08/Oblo-large-Clear-1.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21813 1330",
+          "Structure": "White",
+          "Diffuser": "Silk White",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 W",
+            "lumens": "1300 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3- Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "//www.lodes.com/wp-content/uploads/2024/08/Oblo-large-SilkWhite-1.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21813 0130",
+          "Structure": "White",
+          "Diffuser": "Rainbow",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 W",
+            "lumens": "1300 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3- Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "//www.lodes.com/wp-content/uploads/2024/08/Oblo-large-Rainbow-1.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21813 4330",
+          "Structure": "White",
+          "Diffuser": "Glossy Smoke",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 W",
+            "lumens": "1300 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3- Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "//www.lodes.com/wp-content/uploads/2024/08/Oblo-large-GlossySmoke-1.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21813 8630",
+          "Structure": "White",
+          "Diffuser": "Azure Steel",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 W",
+            "lumens": "1300 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3- Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "//www.lodes.com/wp-content/uploads/2024/08/Oblo-large-AzureSteel-1.png",
+          "Dimming": "Triac, Dali"
+        }
+      ]
+    },
+    {
+      "Product Name": "Oblò medium",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2024/08/Oblo-medium.png",
+      "Product Details": [
+        {
+          "Code": "21812 0027",
+          "Hook": "White",
+          "Diffuser": "Clear",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 W",
+            "lumens": "1280 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3- Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Oblo-medium-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21812 1327",
+          "Hook": "White",
+          "Diffuser": "Silk White",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 W",
+            "lumens": "1280 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3- Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Oblo-medium-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21812 0127",
+          "Hook": "White",
+          "Diffuser": "Rainbow",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 W",
+            "lumens": "1280 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3- Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Oblo-medium-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21812 4327",
+          "Hook": "White",
+          "Diffuser": "Glossy Smoke",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 W",
+            "lumens": "1280 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3- Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Oblo-medium-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21812 8627",
+          "Hook": "White",
+          "Diffuser": "Azure Steel",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 W",
+            "lumens": "1280 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3- Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Oblo-medium-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21812 0030",
+          "Structure": "White",
+          "Diffuser": "Clear",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 W",
+            "lumens": "1300 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3- Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "//www.lodes.com/wp-content/uploads/2024/08/Oblo-medium-Clear-1.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21812 1330",
+          "Structure": "White",
+          "Diffuser": "Silk White",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 W",
+            "lumens": "1300 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3- Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "//www.lodes.com/wp-content/uploads/2024/08/Oblo-medium-SilkWhite-1.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21812 0130",
+          "Structure": "White",
+          "Diffuser": "Rainbow",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 W",
+            "lumens": "1300 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3- Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "//www.lodes.com/wp-content/uploads/2024/08/Oblo-medium-Rainbow-1.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21812 4330",
+          "Structure": "White",
+          "Diffuser": "Glossy Smoke",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 W",
+            "lumens": "1300 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3- Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "//www.lodes.com/wp-content/uploads/2024/08/Oblo-medium-GlossySmoke-1.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21812 8630",
+          "Structure": "White",
+          "Diffuser": "Azure Steel",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 W",
+            "lumens": "1300 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3- Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "//www.lodes.com/wp-content/uploads/2024/08/Oblo-medium-AzureSteel-1.png",
+          "Dimming": "Triac, Dali"
+        }
+      ]
+    },
+    {
+      "Product Name": "Oblò small",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2024/08/Oblo-small.png",
+      "Product Details": [
+        {
+          "Code": "21811 0027",
+          "Hook": "White",
+          "Diffuser": "Clear",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 W",
+            "lumens": "1280 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3- Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Oblo-small-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21811 1327",
+          "Hook": "White",
+          "Diffuser": "Silk White",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 W",
+            "lumens": "1280 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3- Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Oblo-small-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21811 0127",
+          "Hook": "White",
+          "Diffuser": "Rainbow",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 W",
+            "lumens": "1280 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3- Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Oblo-small-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21811 4327",
+          "Hook": "White",
+          "Diffuser": "Glossy Smoke",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 W",
+            "lumens": "1280 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3- Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Oblo-small-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21811 8627",
+          "Hook": "White",
+          "Diffuser": "Azure Steel",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 W",
+            "lumens": "1280 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3- Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2025/01/Oblo-small-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21811 0030",
+          "Structure": "White",
+          "Diffuser": "Clear",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 W",
+            "lumens": "1300 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3- Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "//www.lodes.com/wp-content/uploads/2024/08/Oblo-small-Clear-1.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21811 1330",
+          "Structure": "White",
+          "Diffuser": "Silk White",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 W",
+            "lumens": "1300 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3- Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "//www.lodes.com/wp-content/uploads/2024/08/Oblo-small-SilkWhite-1.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21811 0130",
+          "Structure": "White",
+          "Diffuser": "Rainbow",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 W",
+            "lumens": "1300 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3- Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "//www.lodes.com/wp-content/uploads/2024/08/Oblo-small-Rainbow-1.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21811 4330",
+          "Structure": "White",
+          "Diffuser": "Glossy Smoke",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 W",
+            "lumens": "1300 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3- Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "//www.lodes.com/wp-content/uploads/2024/08/Oblo-small-GlossySmoke-1.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "21811 8630",
+          "Structure": "White",
+          "Diffuser": "Azure Steel",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 W",
+            "lumens": "1300 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3- Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "//www.lodes.com/wp-content/uploads/2024/08/Oblo-small-AzureSteel-1.png",
+          "Dimming": "Triac, Dali"
+        }
+      ]
+    }
+  ]
+]

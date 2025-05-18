@@ -1,0 +1,221 @@
+[
+  {
+    "FamilyName": "U.F.O.",
+    "FamilyImage": [
+      "https://www.lodes.com/wp-content/uploads/2023/07/UFO-01.jpg",
+      "https://www.lodes.com/wp-content/uploads/2023/07/UFO-02.jpg",
+      "https://www.lodes.com/wp-content/uploads/2023/07/UFO-03.jpg",
+      "https://www.lodes.com/wp-content/uploads/2023/07/UFO-04.jpg",
+      "https://www.lodes.com/wp-content/uploads/2023/07/UFO-05.jpg",
+      "https://www.lodes.com/wp-content/uploads/2023/07/UFO-06.jpg",
+      "https://www.lodes.com/wp-content/uploads/2023/07/UFO-07.jpg"
+    ],
+    "Description": "U.F.O. is available in two sizes, with diameters of 35 or 60 centimetres, and in three finishes: Black, Rust or Sand. The light source is available in both 2700 K and 3000 K versions. The surface of the diffuser boasts a textured finish that evokes elements such as rust and stone (for the Rust and Sand finishes)."
+  },
+  [
+    {
+      "Product Name": "U.F.O. 35",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2023/07/UFO-35.png",
+      "Product Details": [
+        {
+          "Code": "52121 2027",
+          "InsideDiffuser": "Black",
+          "OutsideDiffuser": "Black",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700K",
+            "wattage": "25.6 W / 3261 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 2-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/07/UFO-35-Black.png",
+          "Dimming": "DIM"
+        },
+        {
+          "Code": "52121 9427",
+          "InsideDiffuser": "Black",
+          "OutsideDiffuser": "Rust",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700K",
+            "wattage": "25.6 W / 3261 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 2-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/07/UFO-35-Rust.png",
+          "Dimming": "DIM"
+        },
+        {
+          "Code": "52121 9327",
+          "InsideDiffuser": "Black",
+          "OutsideDiffuser": "Sand",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700K",
+            "wattage": "25.6 W / 3261 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 2-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/07/UFO-35-Sand.png",
+          "Dimming": "DIM"
+        },
+        {
+          "Code": "52121 2030",
+          "InsideDiffuser": "Black",
+          "OutsideDiffuser": "Black",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700K",
+            "wattage": "25.6 W / 3261 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 2-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/07/UFO-35-Black.png",
+          "Dimming": "DIM"
+        },
+        {
+          "Code": "52121 9430",
+          "InsideDiffuser": "Black",
+          "OutsideDiffuser": "Rust",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700K",
+            "wattage": "25.6 W / 3261 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 2-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/07/UFO-35-Rust.png",
+          "Dimming": "DIM"
+        },
+        {
+          "Code": "52121 9330",
+          "InsideDiffuser": "Black",
+          "OutsideDiffuser": "Sand",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700K",
+            "wattage": "25.6 W / 3261 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 2-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/07/UFO-35-Sand.png",
+          "Dimming": "DIM"
+        }
+      ]
+    },
+    {
+      "Product Name": "U.F.O. 60",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2023/07/UFO-60.png",
+      "Product Details": [
+        {
+          "Code": "52122 2027",
+          "InsideDiffuser": "Black",
+          "OutsideDiffuser": "Black",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700K",
+            "wattage": "25.6 W / 3261 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 2-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/07/UFO-60-Black.png",
+          "Dimming": "DIM"
+        },
+        {
+          "Code": "52122 9427",
+          "InsideDiffuser": "Black",
+          "OutsideDiffuser": "Rust",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700K",
+            "wattage": "25.6 W / 3261 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 2-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/07/UFO-60-Rust.png",
+          "Dimming": "DIM"
+        },
+        {
+          "Code": "52122 9327",
+          "InsideDiffuser": "Black",
+          "OutsideDiffuser": "Sand",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700K",
+            "wattage": "25.6 W / 3261 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 2-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/07/UFO-60-Sand.png",
+          "Dimming": "DIM"
+        },
+        {
+          "Code": "52122 2030",
+          "InsideDiffuser": "Black",
+          "OutsideDiffuser": "Black",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700K",
+            "wattage": "25.6 W / 3261 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 2-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/07/UFO-60-Black.png",
+          "Dimming": "DIM"
+        },
+        {
+          "Code": "52122 9430",
+          "InsideDiffuser": "Black",
+          "OutsideDiffuser": "Rust",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700K",
+            "wattage": "25.6 W / 3261 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 2-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/07/UFO-60-Rust.png",
+          "Dimming": "DIM"
+        },
+        {
+          "Code": "52122 9330",
+          "InsideDiffuser": "Black",
+          "OutsideDiffuser": "Sand",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700K",
+            "wattage": "25.6 W / 3261 lm",
+            "current": "700 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 2-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/07/UFO-60-Sand.png",
+          "Dimming": "DIM"
+        }
+      ]
+    }
+  ]
+]

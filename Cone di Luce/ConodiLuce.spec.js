@@ -1,7 +1,8 @@
 // @ts-check
+
 import { test, expect } from '@playwright/test';
 import fs from 'fs';
-test("Cono di Luce small", async ({ page }) => {
+test("Tidal design with multiple variants", async ({ page }) => {
   await page.goto('https://www.lodes.com/en/products/cono-di-luce-sospensione-cluster/?code=eu', { waitUntil: 'domcontentloaded' });
 
   try {
@@ -10,38 +11,53 @@ test("Cono di Luce small", async ({ page }) => {
     await rejectCookies.click();
   } catch {}
 
-  const fullProducts = [];
+  //get the family name
+  const title = await page.locator('span.bred4').innerText();
 
-    const variants = await page.$$('.variante');
+  // Extract the image URLs from the gallery
+  const ImageGallery = await page.locator('.img-gallery img').all();
+  const ImageUrls = [];
 
-    await variants[0].click();
-    await page.waitForTimeout(800);
-
-    const body = page.locator('.variante.open');
-    
-    if (await body.isVisible()) {
-      const productName = await page.locator('.left.col25.font26.serif').first().innerText();
-      const image = await page.locator('.img-tecnica-td .img-tecnica').first();
-      const imageSrc = await image.getAttribute('src');
-      const description = await page.locator('.font26.serif.text-more').first().innerText();
-
-      const ImageGallery = await page.locator('.img-gallery img').all();
-      const ImageUrls = [];
-
-      for (const img of ImageGallery) {
+  for (const img of ImageGallery) {
         const src = await img.getAttribute('src');
         ImageUrls.push(src);
-      }
-      // array to store product details...
+  }
+    // Extract the description
+  const description = await page.locator('.font26.serif.text-more').first().innerText();
+    // Create the Overall array
+  // and push the family name, image URLs, and description
+  const Overall = [];
+  Overall.push({
+    FamilyName: title,
+    FamilyImage: ImageUrls,
+    Description: description.trim(),
+});
+
+  const fullProducts = [];
+  const variants = await page.$$('.variante');
+  const count = variants.length;
+    // Loop through each variant and extract the product details
+  for (let variantIndex = 0; variantIndex < count; variantIndex++) {
+    
+    await variants[variantIndex].click();
+    await page.waitForTimeout(800);
+
+    const body = page.locator('.body-variante').nth(variantIndex);
+    if (await body.isVisible()) {
+      const productName = await page.locator('.left.col25.font26.serif').nth(variantIndex).innerText(); //product name each variant
+      const image = await page.locator('.img-tecnica-td .img-tecnica').nth(variantIndex);               // image of each variant
+      const imageSrc = await image.getAttribute('src');
+      const type = productName.split(' ')[3];
+
       let productDetails = [];
 
       // Only extract table and lamps for the first variant
-   
+ 
         const tables = await page.$$('table.table-variante.marginb40');
-        const table = tables[0];
-        const lampDivs = body.locator('div.single-lampadina');
-        const lamp2700Text = await lampDivs.nth(0).innerText();
-        // const moreInfo = await page.locator('.nota.margin20.font11').nth[0].innerText(); 
+        const table = tables[variantIndex];
+        const lampDivs = page.locator('div.single-lampadina');
+        const lamp2700Text = await lampDivs.nth(0).innerText(); //lamp details 2700k
+        const moreInfo = await page.locator('div.nota.marginb20.font11').nth(variantIndex).innerText(); //more info
 
         const parseLamp = (text) => {
           const lines = text
@@ -56,7 +72,7 @@ test("Cono di Luce small", async ({ page }) => {
             current: lines[3] || 'N/A',
             CRI: lines[4] || 'N/A',
             macAdam: lines[5] || 'N/A',
-            // more: moreInfo||'N//A'
+            more:moreInfo || 'N/A',
           };
         };
 
@@ -66,7 +82,7 @@ test("Cono di Luce small", async ({ page }) => {
           colorName.replace(/\s+/g, '')       // remove spaces
                    .replace(/é/g, 'e')
                    .replace(/[^\w]/g, '');
-
+        // start extracting the product details from the table
         if (table) {
           const rows = await table.$$('tr');
           for (const row of rows) {
@@ -84,35 +100,34 @@ test("Cono di Luce small", async ({ page }) => {
               const structureImg = await structureRows[i].$('td a img');
               const canopyImg = await canopyRows[i].$('td a img');
               const codeCell = await codeRows[i].$('td');
-              
               const structureAlt = structureImg ? await structureImg.getAttribute('alt') : 'N/A';
               const canopyAlt = canopyImg ? await canopyImg.getAttribute('alt') : 'N/A';
               const codeText = codeCell ? (await codeCell.innerText()).trim() : 'N/A';
 
               const colorProduct = formatColorForURL(canopyAlt);
-              const ColorUrl = `https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-small-${colorProduct}-1.png`;
+              const ColorUrl = `https://www.lodes.com/wp-content/uploads/2024/01/Cono-di-Luce-${type}-${colorProduct}-1.png`;
 
               productDetails.push({
                 Code: codeText,
-                OutsideDiffuser: structureAlt,
-                InsideDiffuser: canopyAlt,
+                Structure: structureAlt,
+                Diffuser: canopyAlt,
+                Lamp: parsedLamp2700,
                 ThumbnailImage: ColorUrl,
-                Lamp: parsedLamp2700
+                Dimming: 'Triac, Dali'
               });
-            }           
+            }
           }
         }
       
-        fullProducts.push({
+
+      fullProducts.push({
         "Product Name": productName.trim(),
         "Dimension Drawing": imageSrc || 'N/A',
-        "Description": description || 'N/A',
-        "Image Gallery": ImageUrls,
         "Product Details": productDetails
       });
     }
-  
-
-  console.log(JSON.stringify(fullProducts, null, 2));
-  fs.writeFileSync('ConnodiLuce-Small.json', JSON.stringify(fullProducts, null, 2), 'utf-8');
+  }
+  Overall.push(fullProducts);
+  console.log(JSON.stringify(Overall, null, 2));
+  fs.writeFileSync(`${title}.json`, JSON.stringify(Overall, null, 2)); 
 });

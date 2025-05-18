@@ -1,8 +1,16 @@
 // @ts-check
+/*
+
+needed to do thumbnail Img URL as it require to flexible edit the url in order to match to specific type of random cloud,
+ex: each random has its code on its name such as random cloud 7 Lights 23 with number 7 and 23. they are required to add those
+number to url not just only changing the diffuser
+current possible solution: loops that extract the name to get number, then add it to url
+                                  DO LATER AFTER FINISH ALL OTHER FAMILIES
+*/ 
 import { test, expect } from '@playwright/test';
 import fs from 'fs';
 test("Tidal design with multiple variants", async ({ page }) => {
-  await page.goto('https://www.lodes.com/en/products/tidal-2/?code=eu', { waitUntil: 'domcontentloaded' });
+  await page.goto('https://www.lodes.com/en/products/random-cloud/?code=eu', { waitUntil: 'domcontentloaded' });
 
   try {
     const rejectCookies = page.getByRole('button', { name: 'Reject all' });
@@ -10,35 +18,47 @@ test("Tidal design with multiple variants", async ({ page }) => {
     await rejectCookies.click();
   } catch {}
 
-  const fullProducts = [];
+ //get the family name
+  const title = await page.locator('span.bred4').innerText();
 
-    const variants = await page.$$('.variante');
-
-    await variants[2].click();
-    await page.waitForTimeout(800);
-
-    const body = page.locator('.body-variante').nth(2);
-    if (await body.isVisible()) {
-      const productName = await page.locator('.left.col25.font26.serif').nth(2).innerText();
-      const image = await page.locator('.img-tecnica-td .img-tecnica').nth(2);
-      const imageSrc = await image.getAttribute('src');
-      const description = await page.locator('.font26.serif.text-more').first().innerText();
-
-      const ImageGallery = await page.locator('.img-gallery img').all();
+  const ImageGallery = await page.locator('.img-gallery img').all();
       const ImageUrls = [];
 
       for (const img of ImageGallery) {
         const src = await img.getAttribute('src');
         ImageUrls.push(src);
       }
+  const description = await page.locator('.font26.serif.text-more').first().innerText();
+  const Overall = [];
+  Overall.push({
+    FamilyName: title,
+    FamilyImage: ImageUrls,
+    Description: description.trim(),
+});
 
+  const fullProducts = [];
+  for (let variantIndex = 0; variantIndex < 8; variantIndex++) {
+    const variants = await page.$$('.variante');
+    if (variants.length <= variantIndex) break;
+
+    await variants[variantIndex].click();
+    await page.waitForTimeout(800);
+
+    const body = page.locator('.body-variante').nth(variantIndex);
+    if (await body.isVisible()) {
+      const productName = await page.locator('.left.col25.font26.serif').nth(variantIndex).innerText();
+      const image = await page.locator('.img-tecnica-td .img-tecnica').nth(variantIndex);
+      const imageSrc = await image.getAttribute('src');
+      const type1= productName.split(' ')[2];
+      const match = productName.match(/Ø(\d+)/);
+      const type2 = match ? match[1] : null;
       let productDetails = [];
 
       // Only extract table and lamps for the first variant
-   
+ 
         const tables = await page.$$('table.table-variante.marginb40');
-        const table = tables[2];
-        const lampDivs = body.locator('div.single-lampadina');
+        const table = tables[variantIndex];
+        const lampDivs = page.locator('div.single-lampadina');
         const lamp2700Text = await lampDivs.nth(0).innerText();
         const lamp3000Text = await lampDivs.nth(1).innerText();
 
@@ -90,13 +110,14 @@ test("Tidal design with multiple variants", async ({ page }) => {
               const canopyAlt = canopyImg ? await canopyImg.getAttribute('alt') : 'N/A';
               const codeText = codeCell ? (await codeCell.innerText()).trim() : 'N/A';
 
-              const colorProduct = formatColorForURL(structureAlt);
-              const ColorUrl = `https://www.lodes.com/wp-content/uploads/2025/01/Tidal-Suspension-${colorProduct}.png`;
+              // @ts-ignore
+              const colorProduct = canopyAlt.replace(' ', '-');
+              const ColorUrl = `https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-${type1}-${type2}-${colorProduct}.png`;
 
               productDetails.push({
                 Code: codeText,
-                Structure: structureAlt,
-                Canopy: canopyAlt,
+                Canopy: structureAlt,
+                Diffuser: canopyAlt,
                 Lamp: parsedLamp2700,
                 ThumbnailImage: ColorUrl,
                 Dimming: 'Triac, Dali'
@@ -111,14 +132,14 @@ test("Tidal design with multiple variants", async ({ page }) => {
               const structureAlt = structureImg ? await structureImg.getAttribute('alt') : 'N/A';
               const canopyAlt = canopyImg ? await canopyImg.getAttribute('alt') : 'N/A';
               const codeText = codeCell ? (await codeCell.innerText()).trim() : 'N/A';
-
-              const colorProduct = formatColorForURL(structureAlt);
-              const ColorUrl = `https://www.lodes.com/wp-content/uploads/2025/01/Tidal-Suspension-${colorProduct}.png`;
+              // @ts-ignore
+              const colorProduct = canopyAlt.replace(' ', '-');
+              const ColorUrl = `https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-${type1}-${type2}-${colorProduct}.png`;
 
               productDetails.push({
                 Code: codeText,
-                Structure: structureAlt,
-                Canopy: canopyAlt,
+                Canopy: structureAlt,
+                Diffuser: canopyAlt,
                 Lamp: parsedLamp3000,
                 ThumbnailImage: ColorUrl,
                 Dimming: 'Triac, Dali'
@@ -131,13 +152,11 @@ test("Tidal design with multiple variants", async ({ page }) => {
       fullProducts.push({
         "Product Name": productName.trim(),
         "Dimension Drawing": imageSrc || 'N/A',
-        "Description": description.trim() || 'N/A',
-        "Image Gallery": ImageUrls,
         "Product Details": productDetails
       });
     }
-  
-
-  console.log(JSON.stringify(fullProducts, null, 2));
-  fs.writeFileSync('tidal_output3.json', JSON.stringify(fullProducts, null, 2));
+  }
+  Overall.push(fullProducts);
+  console.log(JSON.stringify(Overall, null, 2));
+  fs.writeFileSync(`${title}.json`, JSON.stringify(Overall, null, 2));
 });

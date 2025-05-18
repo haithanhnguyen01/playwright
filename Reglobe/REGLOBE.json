@@ -1,0 +1,68 @@
+[
+  {
+    "FamilyName": "REGLOBE",
+    "FamilyImage": [
+      "https://www.lodes.com/wp-content/uploads/2023/07/Reglobe-01.jpg",
+      "https://www.lodes.com/wp-content/uploads/2023/07/Reglobe-02.jpg",
+      "https://www.lodes.com/wp-content/uploads/2023/07/Reglobe-03.jpg",
+      "https://www.lodes.com/wp-content/uploads/2023/07/Reglobe-04.jpg"
+    ],
+    "Description": "The lamp features an opaque sphere that houses a white conical metal diffuser. The light source contains within it the connection for an E27 bulb that emits light downwards. The power cable is black. Reglobe is available in three diameters, 45, 55 or 65 centimetres."
+  },
+  [
+    {
+      "Product Name": "REGLOBE 45",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2023/07/Reglobe-45-1.png",
+      "Product Details": [
+        {
+          "Code": "52321 1100",
+          "InsideDiffuser": "White",
+          "OutsideDiffuser": "Random Terrazzo",
+          "Lamp": {
+            "type": "LED E27",
+            "wattage": "1 max 25W",
+            "more": "Bulb not included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/07/Reglobe-45.png",
+          "Dimming": "DIM"
+        }
+      ]
+    },
+    {
+      "Product Name": "REGLOBE 55",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2023/07/Reglobe-55-1.png",
+      "Product Details": [
+        {
+          "Code": "52322 1100",
+          "InsideDiffuser": "White",
+          "OutsideDiffuser": "Random Terrazzo",
+          "Lamp": {
+            "type": "LED E27",
+            "wattage": "1 max 25W",
+            "more": "Bulb not included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/07/Reglobe-55.png",
+          "Dimming": "DIM"
+        }
+      ]
+    },
+    {
+      "Product Name": "REGLOBE 65",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2023/07/Reglobe-65-1.png",
+      "Product Details": [
+        {
+          "Code": "52323 1100",
+          "InsideDiffuser": "White",
+          "OutsideDiffuser": "Random Terrazzo",
+          "Lamp": {
+            "type": "LED E27",
+            "wattage": "1 max 25W",
+            "more": "Bulb not included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/07/Reglobe-65.png",
+          "Dimming": "DIM"
+        }
+      ]
+    }
+  ]
+]

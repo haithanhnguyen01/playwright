@@ -1,0 +1,1968 @@
+[
+  {
+    "FamilyName": "Random Cloud",
+    "FamilyImage": [
+      "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-01.jpg",
+      "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-02.jpg",
+      "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-03.jpg",
+      "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-04.jpg",
+      "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-05.jpg",
+      "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-06.jpg"
+    ],
+    "Description": "Random Cloud captures the essence of why a cloud continues to fascinate us: voluminous yet simultaneously light and ethereal."
+  },
+  [
+    {
+      "Product Name": "Random Cloud 7 Lights Ø23",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-7-23.png",
+      "Product Details": [
+        {
+          "Code": "22121 0027",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Clear",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-7-23-Clear.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22121 1327",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Frosted White",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-7-23-Frosted-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22121 4027",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Chrome",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-7-23-Chrome.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22121 4327",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Smoke",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-7-23-Glossy-Smoke.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22121 4627",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Bronze",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-7-23-Glossy-Bronze.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22121 5027",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-7-23-Gold.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22121 5527",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Rose Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-7-23-Rose-Gold.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22121 0030",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Clear",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-7-23-Clear.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22121 1330",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Frosted White",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-7-23-Frosted-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22121 4030",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Chrome",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-7-23-Chrome.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22121 4330",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Smoke",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-7-23-Glossy-Smoke.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22121 4630",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Bronze",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-7-23-Glossy-Bronze.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22121 5030",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-7-23-Gold.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22121 5530",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Rose Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-7-23-Rose-Gold.png",
+          "Dimming": "Triac, Dali"
+        }
+      ]
+    },
+    {
+      "Product Name": "Random Cloud 7 Lights Ø28",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-7-28.png",
+      "Product Details": [
+        {
+          "Code": "22122 0027",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Clear",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-7-28-Clear.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22122 1327",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Frosted White",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-7-28-Frosted-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22122 4027",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Chrome",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-7-28-Chrome.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22122 4327",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Smoke",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-7-28-Glossy-Smoke.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22122 4627",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Bronze",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-7-28-Glossy-Bronze.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22122 5027",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-7-28-Gold.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22122 5527",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Rose Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-7-28-Rose-Gold.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22122 0030",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Clear",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-7-28-Clear.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22122 1330",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Frosted White",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-7-28-Frosted-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22122 4030",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Chrome",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-7-28-Chrome.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22122 4330",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Smoke",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-7-28-Glossy-Smoke.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22122 4630",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Bronze",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-7-28-Glossy-Bronze.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22122 5030",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-7-28-Gold.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22122 5530",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Rose Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-7-28-Rose-Gold.png",
+          "Dimming": "Triac, Dali"
+        }
+      ]
+    },
+    {
+      "Product Name": "Random Cloud 14 Lights Ø23",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-14-23.png",
+      "Product Details": [
+        {
+          "Code": "22123 0027",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Clear",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-14-23-Clear.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22123 1327",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Frosted White",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-14-23-Frosted-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22123 4027",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Chrome",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-14-23-Chrome.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22123 4327",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Smoke",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-14-23-Glossy-Smoke.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22123 4627",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Bronze",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-14-23-Glossy-Bronze.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22123 5027",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-14-23-Gold.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22123 5527",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Rose Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-14-23-Rose-Gold.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22123 0030",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Clear",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-14-23-Clear.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22123 1330",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Frosted White",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-14-23-Frosted-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22123 4030",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Chrome",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-14-23-Chrome.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22123 4330",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Smoke",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-14-23-Glossy-Smoke.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22123 4630",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Bronze",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-14-23-Glossy-Bronze.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22123 5030",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-14-23-Gold.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22123 5530",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Rose Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-14-23-Rose-Gold.png",
+          "Dimming": "Triac, Dali"
+        }
+      ]
+    },
+    {
+      "Product Name": "Random Cloud 14 Lights Ø28",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-14-28.png",
+      "Product Details": [
+        {
+          "Code": "22124 0027",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Clear",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-14-28-Clear.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22124 1327",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Frosted White",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-14-28-Frosted-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22124 4027",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Chrome",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-14-28-Chrome.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22124 4327",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Smoke",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-14-28-Glossy-Smoke.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22124 4627",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Bronze",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-14-28-Glossy-Bronze.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22124 5027",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-14-28-Gold.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22124 5527",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Rose Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-14-28-Rose-Gold.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22124 0030",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Clear",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-14-28-Clear.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22124 1330",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Frosted White",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-14-28-Frosted-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22124 4030",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Chrome",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-14-28-Chrome.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22124 4330",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Smoke",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-14-28-Glossy-Smoke.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22124 4630",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Bronze",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-14-28-Glossy-Bronze.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22124 5030",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-14-28-Gold.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22124 5530",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Rose Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-14-28-Rose-Gold.png",
+          "Dimming": "Triac, Dali"
+        }
+      ]
+    },
+    {
+      "Product Name": "Random Cloud 19 Lights Ø23",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-19-23.png",
+      "Product Details": [
+        {
+          "Code": "22125 0027",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Clear",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-19-23-Clear.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22125 1327",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Frosted White",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-19-23-Frosted-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22125 4027",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Chrome",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-19-23-Chrome.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22125 4327",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Smoke",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-19-23-Glossy-Smoke.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22125 4627",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Bronze",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-19-23-Glossy-Bronze.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22125 5027",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-19-23-Gold.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22125 5527",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Rose Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-19-23-Rose-Gold.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22125 0030",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Clear",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-19-23-Clear.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22125 1330",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Frosted White",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-19-23-Frosted-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22125 4030",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Chrome",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-19-23-Chrome.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22125 4330",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Smoke",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-19-23-Glossy-Smoke.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22125 4630",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Bronze",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-19-23-Glossy-Bronze.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22125 5030",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-19-23-Gold.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22125 5530",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Rose Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-19-23-Rose-Gold.png",
+          "Dimming": "Triac, Dali"
+        }
+      ]
+    },
+    {
+      "Product Name": "Random Cloud 19 Lights Ø28",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-19-28.png",
+      "Product Details": [
+        {
+          "Code": "22126 0027",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Clear",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-19-28-Clear.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22126 1327",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Frosted White",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-19-28-Frosted-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22126 4027",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Chrome",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-19-28-Chrome.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22126 4327",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Smoke",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-19-28-Glossy-Smoke.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22126 4627",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Bronze",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-19-28-Glossy-Bronze.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22126 5027",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-19-28-Gold.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22126 5527",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Rose Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-19-28-Rose-Gold.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22126 0030",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Clear",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-19-28-Clear.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22126 1330",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Frosted White",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-19-28-Frosted-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22126 4030",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Chrome",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-19-28-Chrome.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22126 4330",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Smoke",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-19-28-Glossy-Smoke.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22126 4630",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Bronze",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-19-28-Glossy-Bronze.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22126 5030",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-19-28-Gold.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22126 5530",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Rose Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-19-28-Rose-Gold.png",
+          "Dimming": "Triac, Dali"
+        }
+      ]
+    },
+    {
+      "Product Name": "Random Cloud 23 Lights Ø23",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-23-23.png",
+      "Product Details": [
+        {
+          "Code": "22127 0027",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Clear",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-23-23-Clear.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22127 1327",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Frosted White",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-23-23-Frosted-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22127 4027",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Chrome",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-23-23-Chrome.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22127 4327",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Smoke",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-23-23-Glossy-Smoke.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22127 4627",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Bronze",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-23-23-Glossy-Bronze.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22127 5027",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-23-23-Gold.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22127 5527",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Rose Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-23-23-Rose-Gold.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22127 0030",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Clear",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-23-23-Clear.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22127 1330",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Frosted White",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-23-23-Frosted-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22127 4030",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Chrome",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-23-23-Chrome.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22127 4330",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Smoke",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-23-23-Glossy-Smoke.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22127 4630",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Bronze",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-23-23-Glossy-Bronze.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22127 5030",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-23-23-Gold.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22127 5530",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Rose Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-23-23-Rose-Gold.png",
+          "Dimming": "Triac, Dali"
+        }
+      ]
+    },
+    {
+      "Product Name": "Random Cloud 23 Lights Ø28",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-23-28.png",
+      "Product Details": [
+        {
+          "Code": "22128 0027",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Clear",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-23-28-Clear.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22128 1327",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Frosted White",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-23-28-Frosted-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22128 4027",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Chrome",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-23-28-Chrome.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22128 4327",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Smoke",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-23-28-Glossy-Smoke.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22128 4627",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Bronze",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-23-28-Glossy-Bronze.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22128 5027",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-23-28-Gold.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22128 5527",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Rose Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3150 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-23-28-Rose-Gold.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22128 0030",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Clear",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-23-28-Clear.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22128 1330",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Frosted White",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-23-28-Frosted-White.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22128 4030",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Chrome",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-23-28-Chrome.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22128 4330",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Smoke",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-23-28-Glossy-Smoke.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22128 4630",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Glossy Bronze",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-23-28-Glossy-Bronze.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22128 5030",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-23-28-Gold.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "22128 5530",
+          "Canopy": "Matte White – 9010",
+          "Diffuser": "Rose Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "7 x 3 W",
+            "lumens": "3360 lm",
+            "current": "350 mA",
+            "CRI": "CRI 90",
+            "macAdam": "MacAdam 3-Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/12/Random-Cloud-23-28-Rose-Gold.png",
+          "Dimming": "Triac, Dali"
+        }
+      ]
+    }
+  ]
+]

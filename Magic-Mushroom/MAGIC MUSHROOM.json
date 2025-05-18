@@ -1,0 +1,36 @@
+[
+  {
+    "FamilyName": "MAGIC MUSHROOM",
+    "FamilyImage": [
+      "https://www.lodes.com/wp-content/uploads/2023/07/Magic-Mushroom-01.jpg",
+      "https://www.lodes.com/wp-content/uploads/2023/07/Magic-Mushroom-03.jpg",
+      "https://www.lodes.com/wp-content/uploads/2023/07/Magic-Mushroom-05.jpg",
+      "https://www.lodes.com/wp-content/uploads/2023/07/Magic-Mushroom-04.jpg",
+      "https://www.lodes.com/wp-content/uploads/2023/07/Magic-Mushroom-02.jpg",
+      "https://www.lodes.com/wp-content/uploads/2023/07/Magic-Mushroom-06.jpg",
+      "https://www.lodes.com/wp-content/uploads/2023/07/Magic-Mushroom-07.jpg"
+    ],
+    "Description": "Magic Mushroom consists of a steel base that houses a blown glass lampshade. The lamp is available in a single size measuring 38 cm in diameter. The steel base is black, while the blown glass shade is available in an Aqua finish. The power cord is black, with an adjustable dimmer switch."
+  },
+  [
+    {
+      "Product Name": "MAGIC MUSHROOM",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2023/07/Magic-Mushroom-1.png",
+      "Product Details": [
+        {
+          "Code": "52280 0000",
+          "structure": "Black",
+          "Diffuser": "Aqua",
+          "Lamp": {
+            "type": "T30 Tubular",
+            "Dimensions": "L / W 225 mm",
+            "wattage": "1 × 25 W",
+            "more": "Bulb not included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2023/07/Magic-Mushroom-2.png",
+          "Dimming": "Dim included"
+        }
+      ]
+    }
+  ]
+]

@@ -1,8 +1,16 @@
 // @ts-check
+/*
+
+needed to do thumbnail Img URL as it require to flexible edit the url in order to match to specific type of random cloud,
+ex: each random has its code on its name such as random cloud 7 Lights 23 with number 7 and 23. they are required to add those
+number to url not just only changing the diffuser
+current possible solution: loops that extract the name to get number, then add it to url
+                                  DO LATER AFTER FINISH ALL OTHER FAMILIES
+*/ 
 import { test, expect } from '@playwright/test';
 import fs from 'fs';
 test("Tidal design with multiple variants", async ({ page }) => {
-  await page.goto('https://www.lodes.com/en/products/tidal-2/?code=eu', { waitUntil: 'domcontentloaded' });
+  await page.goto('https://www.lodes.com/en/products/nautilus-ceiling/?code=eu', { waitUntil: 'domcontentloaded' });
 
   try {
     const rejectCookies = page.getByRole('button', { name: 'Reject all' });
@@ -10,36 +18,44 @@ test("Tidal design with multiple variants", async ({ page }) => {
     await rejectCookies.click();
   } catch {}
 
-  const fullProducts = [];
+ //get the family name
+  const title = await page.locator('span.bred4').innerText();
 
-    const variants = await page.$$('.variante');
-
-    await variants[1].click();
-    await page.waitForTimeout(800);
-
-    const body = page.locator('.body-variante').nth(1);
-    console.log(`body: ${body.isVisible()}`);
-    if (await body.isVisible()) {
-      const productName = await page.locator('.left.col25.font26.serif').nth(1).innerText();
-      const image = await page.locator('.img-tecnica-td .img-tecnica').nth(1);
-      const imageSrc = await image.getAttribute('src');
-      const description = await page.locator('.font26.serif.text-more').first().innerText();
-
-      const ImageGallery = await page.locator('.img-gallery img').all();
+  const ImageGallery = await page.locator('.img-gallery img').all();
       const ImageUrls = [];
 
       for (const img of ImageGallery) {
         const src = await img.getAttribute('src');
         ImageUrls.push(src);
       }
+  const description = await page.locator('.font26.serif.text-more').first().innerText();
+  const Overall = [];
+  Overall.push({
+    FamilyName: title,
+    FamilyImage: ImageUrls,
+    Description: description.trim(),
+});
+  const variants = await page.$$('.variante');
+  const count = variants.length;
+  const fullProducts = [];
+  for (let variantIndex = 0; variantIndex < count; variantIndex++) {
+    
+    await variants[variantIndex].click();
+    await page.waitForTimeout(800);
 
+    const body = page.locator('.body-variante').nth(variantIndex);
+    if (await body.isVisible()) {
+      const productName = await page.locator('.left.col25.font26.serif').nth(variantIndex).innerText();
+      const image = await page.locator('.img-tecnica-td .img-tecnica').nth(variantIndex);
+      const imageSrc = await image.getAttribute('src');
+      const name = productName.replace(' ','-');
       let productDetails = [];
 
       // Only extract table and lamps for the first variant
-   
+ 
         const tables = await page.$$('table.table-variante.marginb40');
-        const table = tables[1];
-        const lampDivs = body.locator('div.single-lampadina');
+        const table = tables[variantIndex];
+        const lampDivs = page.locator('div.single-lampadina');
         const lamp2700Text = await lampDivs.nth(0).innerText();
         const lamp3000Text = await lampDivs.nth(1).innerText();
 
@@ -64,40 +80,51 @@ test("Tidal design with multiple variants", async ({ page }) => {
         const parsedLamp2700 = parseLamp(lamp2700Text);
         const parsedLamp3000 = parseLamp(lamp3000Text);
 
-        const formatColorForURL = (colorName) =>
-          colorName.replace(/\s+/g, '')       // remove spaces
-                   .replace(/é/g, 'e')
-                   .replace(/[^\w]/g, '');
-
+        const formatColorForURL = (colorName) =>{
+        let name = colorName;
+        if (name=="Matte Champagne") {
+          name = 'Champagne';
+        }else if (name=="Matte White – 9010") {
+          name = 'White';
+        }else if (name=="Matte Black – 9005") {
+          name = 'Black';
+        }
+        return name
+          .split('–')[0]
+          .normalize('NFD')
+          .replace(/[\u0300-\u036f]/g, '')
+          .replace(/\s+/g, '')
+          .replace(/[^\w]/g, '');
+      }
         if (table) {
           const rows = await table.$$('tr');
           for (const row of rows) {
             const iconTds = await row.$$('td.icons:has(table)');
             const codeTds = await row.$$('td.codes:has(table)');
-            if (iconTds.length < 2 || codeTds.length < 1) continue;
+            if (iconTds.length < 1 || codeTds.length < 2) continue;
 
             const structureRows = await iconTds[0].$$('table tr');
-            const canopyRows = await iconTds[1].$$('table tr');
+            // const canopyRows = await iconTds[1].$$('table tr');
             const codeRows = await codeTds[0].$$('table tr');
             const codeRows2 = await codeTds[1].$$('table tr');
-            const rowCount = Math.min(structureRows.length, canopyRows.length, codeRows.length);
+            const rowCount = Math.min(structureRows.length, codeRows2.length, codeRows.length);
 
             // 2700K codes
             for (let i = 0; i < rowCount; i++) {
               const structureImg = await structureRows[i].$('td a img');
-              const canopyImg = await canopyRows[i].$('td a img');
+            //   const canopyImg = await canopyRows[i].$('td a img');
               const codeCell = await codeRows[i].$('td');
               const structureAlt = structureImg ? await structureImg.getAttribute('alt') : 'N/A';
-              const canopyAlt = canopyImg ? await canopyImg.getAttribute('alt') : 'N/A';
+            //   const canopyAlt = canopyImg ? await canopyImg.getAttribute('alt') : 'N/A';
               const codeText = codeCell ? (await codeCell.innerText()).trim() : 'N/A';
 
               const colorProduct = formatColorForURL(structureAlt);
-              const ColorUrl = `https://www.lodes.com/wp-content/uploads/2025/01/Tidal-Suspension-${colorProduct}.png`;
+              const ColorUrl = `https://www.lodes.com/wp-content/uploads/2021/03/${name}-Ceiling-${colorProduct}.png`;
 
               productDetails.push({
                 Code: codeText,
-                Structure: structureAlt,
-                Canopy: canopyAlt,
+                Canopy: structureAlt,
+                // Diffuser: canopyAlt,
                 Lamp: parsedLamp2700,
                 ThumbnailImage: ColorUrl,
                 Dimming: 'Triac, Dali'
@@ -107,19 +134,19 @@ test("Tidal design with multiple variants", async ({ page }) => {
             // 3000K codes
             for (let i = 0; i < rowCount; i++) {
               const structureImg = await structureRows[i].$('td a img');
-              const canopyImg = await canopyRows[i].$('td a img');
+            //   const canopyImg = await canopyRows[i].$('td a img');
               const codeCell = await codeRows2[i].$('td');
               const structureAlt = structureImg ? await structureImg.getAttribute('alt') : 'N/A';
-              const canopyAlt = canopyImg ? await canopyImg.getAttribute('alt') : 'N/A';
+            //   const canopyAlt = canopyImg ? await canopyImg.getAttribute('alt') : 'N/A';
               const codeText = codeCell ? (await codeCell.innerText()).trim() : 'N/A';
 
               const colorProduct = formatColorForURL(structureAlt);
-              const ColorUrl = `https://www.lodes.com/wp-content/uploads/2025/01/Tidal-Suspension-${colorProduct}.png`;
+              const ColorUrl = `https://www.lodes.com/wp-content/uploads/2021/03/${name}-Ceiling-${colorProduct}.png`;
 
               productDetails.push({
                 Code: codeText,
-                Structure: structureAlt,
-                Canopy: canopyAlt,
+                Canopy: structureAlt,
+                // Diffuser: canopyAlt,
                 Lamp: parsedLamp3000,
                 ThumbnailImage: ColorUrl,
                 Dimming: 'Triac, Dali'
@@ -132,13 +159,11 @@ test("Tidal design with multiple variants", async ({ page }) => {
       fullProducts.push({
         "Product Name": productName.trim(),
         "Dimension Drawing": imageSrc || 'N/A',
-        "Description": description.trim() || 'N/A',
-        "Image Gallery": ImageUrls,
         "Product Details": productDetails
       });
     }
-  
-
-  console.log(JSON.stringify(fullProducts, null, 2));
-  fs.writeFileSync('tidal_output2.json', JSON.stringify(fullProducts, null, 2));
+  }
+  Overall.push(fullProducts);
+  console.log(JSON.stringify(Overall, null, 2));
+    fs.writeFileSync(`${title}.json`, JSON.stringify(Overall, null, 2)); 
 });
