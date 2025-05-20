@@ -1,0 +1,242 @@
+[
+  {
+    "FamilyName": "Random Stick",
+    "FamilyImage": [
+      "https://www.lodes.com/wp-content/uploads/2024/08/RandomStick-6.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/08/RandomStick-1.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/08/RandomStick-2.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/08/RandomStick-3.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/08/RandomStick-4.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/09/23420M-2230U17110V-4317111V-1317112V-4617110V-43-scaled.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/09/23420M-5030U17110V-4317111V-0017112V-4017110V-00-scaled.jpg"
+    ],
+    "Description": "Random Stick brings the collection of the same name designed by Chia-Ying Lee into the horizontal dimension with a suspension lamp that is both essential and highly decorative. The poetic blown-glass spheres, perfect in their smooth surfaces, rest on a hexagonal bar with strong aesthetic appeal, almost as if they were fragile soap bubbles grazing the surface before taking flight again.\n\nLodes has crafted a highly functional piece by placing LEDs on the underside of the bar. This design choice complements the light already diffused by the spheres and ensures uniform downward illumination, making it ideal for lighting surfaces below.\nRandom Stick is available in two versions: the 100 cm model with four spheres and two LEDs, suitable for placement above a dining table or desk; and the 150 cm model with six spheres and three LEDs, perfect for illuminating longer surfaces like a cocktail bar counter or in retail settings, and it can also be installed in multiples.\n\nThe spheres come in seven finishes from the Random collection, which can be freely combined on bars available in glossy gold, glossy black, and matte white, allowing for original colour play and fun lighting effects that highlight the concept of randomness and evanescence, reminiscent of bubbles. The numerous combinations possible by mixing the colours of the bars and spheres result in diverse characters and lighting effects, from bold tones and striking contrasts to subtle tone-on-tone nuances, enabling you to create the perfect solution to suit the style of any room.\n\nThanks to its design and the option to configure it with a special canopy, specifically created for this type of pendant lamp, Random Stick can also be installed in spaces where the light point is not centrally located."
+  },
+  [
+    {
+      "Product Name": "Random Stick long",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2024/08/Screenshot-2024-08-29-alle-13.25.07.png",
+      "Product Details": [
+        {
+          "Code": "23421M 1027",
+          "Structure": "Matte White",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "3 x 3 W + 6 x 1 W",
+            "lumens": "2250 lm",
+            "current": "Diffused light ➘ 900 lm",
+            "CRI": "Direct light ➘ 1350 lm",
+            "macAdam": "350 mA",
+            "more": "LED and driver included"
+          },
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "23421M 2227",
+          "Structure": "Black Chrome",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "3 x 3 W + 6 x 1 W",
+            "lumens": "2250 lm",
+            "current": "Diffused light ➘ 900 lm",
+            "CRI": "Direct light ➘ 1350 lm",
+            "macAdam": "350 mA",
+            "more": "LED and driver included"
+          },
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "23421M 5027",
+          "Structure": "Polished Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "3 x 3 W + 6 x 1 W",
+            "lumens": "2250 lm",
+            "current": "Diffused light ➘ 900 lm",
+            "CRI": "Direct light ➘ 1350 lm",
+            "macAdam": "350 mA",
+            "more": "LED and driver included"
+          },
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "23421M 1030",
+          "Structure": "Matte White",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "3 x 3 W + 6 x 1 W",
+            "lumens": "2400 lm",
+            "current": "Diffused light ➘ 980 lm",
+            "CRI": "Direct light ➘ 1720 lm",
+            "macAdam": "350 mA",
+            "more": "LED and driver included"
+          },
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "23421M 2230",
+          "Structure": "Black Chrome",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "3 x 3 W + 6 x 1 W",
+            "lumens": "2400 lm",
+            "current": "Diffused light ➘ 980 lm",
+            "CRI": "Direct light ➘ 1720 lm",
+            "macAdam": "350 mA",
+            "more": "LED and driver included"
+          },
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "23421M 5030",
+          "Structure": "Polished Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "3 x 3 W + 6 x 1 W",
+            "lumens": "2400 lm",
+            "current": "Diffused light ➘ 980 lm",
+            "CRI": "Direct light ➘ 1720 lm",
+            "macAdam": "350 mA",
+            "more": "LED and driver included"
+          },
+          "Dimming": "Triac, Dali"
+        }
+      ],
+      "SizeSphere": [
+        "Ø 14 сm/ 5,51\"",
+        "Ø 10 сm/ 3,93\"",
+        "Ø 12 сm/ 4,72\"",
+        "Ø 18 сm/ 7,08\"",
+        "Ø 10 сm/ 3,93\"",
+        "Ø 18 сm/ 7,08\""
+      ],
+      "BlownGlassDiffuser": [
+        "Clear",
+        "Frosted White",
+        "Chrome",
+        "Glossy Smoke",
+        "Glossy Bronze",
+        "Gold",
+        "Rose Gold"
+      ]
+    },
+    {
+      "Product Name": "Random Stick short",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2024/08/RandomStick-short.png",
+      "Product Details": [
+        {
+          "Code": "23420M 1027",
+          "Structure": "Matte White",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "3 x 3 W + 6 x 1 W",
+            "lumens": "2250 lm",
+            "current": "Diffused light ➘ 900 lm",
+            "CRI": "Direct light ➘ 1350 lm",
+            "macAdam": "350 mA",
+            "more": "LED and driver included"
+          },
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "23420M 2227",
+          "Structure": "Black Chrome",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "3 x 3 W + 6 x 1 W",
+            "lumens": "2250 lm",
+            "current": "Diffused light ➘ 900 lm",
+            "CRI": "Direct light ➘ 1350 lm",
+            "macAdam": "350 mA",
+            "more": "LED and driver included"
+          },
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "23420M 5027",
+          "Structure": "Polished Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "3 x 3 W + 6 x 1 W",
+            "lumens": "2250 lm",
+            "current": "Diffused light ➘ 900 lm",
+            "CRI": "Direct light ➘ 1350 lm",
+            "macAdam": "350 mA",
+            "more": "LED and driver included"
+          },
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "23420M 1030",
+          "Structure": "Matte White",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "3 x 3 W + 6 x 1 W",
+            "lumens": "2400 lm",
+            "current": "Diffused light ➘ 980 lm",
+            "CRI": "Direct light ➘ 1720 lm",
+            "macAdam": "350 mA",
+            "more": "LED and driver included"
+          },
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "23420M 2230",
+          "Structure": "Black Chrome",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "3 x 3 W + 6 x 1 W",
+            "lumens": "2400 lm",
+            "current": "Diffused light ➘ 980 lm",
+            "CRI": "Direct light ➘ 1720 lm",
+            "macAdam": "350 mA",
+            "more": "LED and driver included"
+          },
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "23420M 5030",
+          "Structure": "Polished Gold",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "3 x 3 W + 6 x 1 W",
+            "lumens": "2400 lm",
+            "current": "Diffused light ➘ 980 lm",
+            "CRI": "Direct light ➘ 1720 lm",
+            "macAdam": "350 mA",
+            "more": "LED and driver included"
+          },
+          "Dimming": "Triac, Dali"
+        }
+      ],
+      "SizeSphere": [
+        "l. 100 cm/ 39,37\"",
+        "Ø 10 сm/ 3,93\"",
+        "Ø 12 сm/ 4,72\"",
+        "Ø 14 сm/ 5,51\"",
+        "Ø 10сm/ 3,93\""
+      ],
+      "BlownGlassDiffuser": [
+        "Clear",
+        "Frosted White",
+        "Chrome",
+        "Glossy Smoke",
+        "Glossy Bronze",
+        "Gold",
+        "Rose Gold"
+      ]
+    }
+  ]
+]
