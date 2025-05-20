@@ -1,0 +1,322 @@
+[
+  {
+    "FamilyName": "Sky-Fall Round",
+    "FamilyImage": [
+      "https://www.lodes.com/wp-content/uploads/2021/03/Sky-Fall-Round-16.jpg",
+      "https://www.lodes.com/wp-content/uploads/2021/03/Sky-Fall-Round-13.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/10/Lodes-Sky-FallRound-0325.jpg",
+      "https://www.lodes.com/wp-content/uploads/2024/10/Sky–Fall-round-medium_clear-scaled.jpg"
+    ],
+    "Description": "In Sky–Fall, the traditional glass processing techniques embrace the most advanced LED technologies. The shape of Sky–Fall captures the imagination in its reminiscence of ancient decanters in precious blown glass. Its function amazes thanks to the innovative double LED source that diffuses direct and indirect light. Available in two sizes and in four finishes, and in 2700 or 3000 K* light colour temperature versions, Sky–Fall decorates both when it is on and when it is off. Now added to the family is the new Sky-Fall Round: a further variant featuring a spherically shaped diffuser available in two sizes and four finishes, including the new, precious golden sage. The new finish also extends to Sky-Fall in both sizes.\n* North America: 2700k only"
+  },
+  [
+    {
+      "Product Name": "Sky-Fall Round large",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2024/01/Sky–Fall-Round-large.png",
+      "Product Details": [
+        {
+          "Code": "14823 0027",
+          "Structure": "Chrome",
+          "Diffuser": "Clear",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "2 x 8,5 W",
+            "lumens": "1815 lm",
+            "current": "350 mA",
+            "CRI": "CRI 95",
+            "macAdam": "MacAdam 3–Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/01/Sky-Fall-Round-Large-Clear.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "14823 4327",
+          "Structure": "Chrome",
+          "Diffuser": "Glossy Smoke",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "2 x 8,5 W",
+            "lumens": "1815 lm",
+            "current": "350 mA",
+            "CRI": "CRI 95",
+            "macAdam": "MacAdam 3–Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/01/Sky-Fall-Round-Large-GlossySmoke.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "14823 4627",
+          "Structure": "Chrome",
+          "Diffuser": "Glossy Bronze",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "2 x 8,5 W",
+            "lumens": "1815 lm",
+            "current": "350 mA",
+            "CRI": "CRI 95",
+            "macAdam": "MacAdam 3–Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/01/Sky-Fall-Round-Large-GlossyBronze.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "14823 7127",
+          "Structure": "Chrome",
+          "Diffuser": "Golden Sage",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "2 x 8,5 W",
+            "lumens": "1815 lm",
+            "current": "350 mA",
+            "CRI": "CRI 95",
+            "macAdam": "MacAdam 3–Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/01/Sky-Fall-Round-Large-GoldenSage.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "14823 0030",
+          "Structure": "Chrome",
+          "Diffuser": "Clear",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "2 x 8,5 W",
+            "lumens": "1870 lm",
+            "current": "350 mA",
+            "CRI": "CRI 95",
+            "macAdam": "MacAdam 3–Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/01/Sky-Fall-Round-Large-Clear.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "14823 4330",
+          "Structure": "Chrome",
+          "Diffuser": "Glossy Smoke",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "2 x 8,5 W",
+            "lumens": "1870 lm",
+            "current": "350 mA",
+            "CRI": "CRI 95",
+            "macAdam": "MacAdam 3–Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/01/Sky-Fall-Round-Large-GlossySmoke.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "14823 4630",
+          "Structure": "Chrome",
+          "Diffuser": "Glossy Bronze",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "2 x 8,5 W",
+            "lumens": "1870 lm",
+            "current": "350 mA",
+            "CRI": "CRI 95",
+            "macAdam": "MacAdam 3–Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/01/Sky-Fall-Round-Large-GlossyBronze.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "14823 7130",
+          "Structure": "Chrome",
+          "Diffuser": "Golden Sage",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "2 x 8,5 W",
+            "lumens": "1870 lm",
+            "current": "350 mA",
+            "CRI": "CRI 95",
+            "macAdam": "MacAdam 3–Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/01/Sky-Fall-Round-Large-GoldenSage.png",
+          "Dimming": "Triac, Dali"
+        }
+      ]
+    },
+    {
+      "Product Name": "Sky-Fall Round medium",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2024/01/Sky–Fall-Round-medium.png",
+      "Product Details": [
+        {
+          "Code": "14824 0027",
+          "Structure": "Chrome",
+          "Diffuser": "Clear",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "2 x 8,5 W",
+            "lumens": "1815 lm",
+            "current": "350 mA",
+            "CRI": "CRI 95",
+            "macAdam": "MacAdam 3–Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/01/Sky-Fall-Round-medium-Clear.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "14824 4327",
+          "Structure": "Chrome",
+          "Diffuser": "Glossy Smoke",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "2 x 8,5 W",
+            "lumens": "1815 lm",
+            "current": "350 mA",
+            "CRI": "CRI 95",
+            "macAdam": "MacAdam 3–Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/01/Sky-Fall-Round-medium-GlossySmoke.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "14824 4627",
+          "Structure": "Chrome",
+          "Diffuser": "Glossy Bronze",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "2 x 8,5 W",
+            "lumens": "1815 lm",
+            "current": "350 mA",
+            "CRI": "CRI 95",
+            "macAdam": "MacAdam 3–Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/01/Sky-Fall-Round-medium-GlossyBronze.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "14824 7127",
+          "Structure": "Chrome",
+          "Diffuser": "Golden Sage",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "2700 K",
+            "wattage": "2 x 8,5 W",
+            "lumens": "1815 lm",
+            "current": "350 mA",
+            "CRI": "CRI 95",
+            "macAdam": "MacAdam 3–Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/01/Sky-Fall-Round-medium-GoldenSage.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "14824 0030",
+          "Structure": "Chrome",
+          "Diffuser": "Clear",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "2 x 8,5 W",
+            "lumens": "1870 lm",
+            "current": "350 mA",
+            "CRI": "CRI 95",
+            "macAdam": "MacAdam 3–Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/01/Sky-Fall-Round-medium-Clear.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "14824 4330",
+          "Structure": "Chrome",
+          "Diffuser": "Glossy Smoke",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "2 x 8,5 W",
+            "lumens": "1870 lm",
+            "current": "350 mA",
+            "CRI": "CRI 95",
+            "macAdam": "MacAdam 3–Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/01/Sky-Fall-Round-medium-GlossySmoke.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "14824 4630",
+          "Structure": "Chrome",
+          "Diffuser": "Glossy Bronze",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "2 x 8,5 W",
+            "lumens": "1870 lm",
+            "current": "350 mA",
+            "CRI": "CRI 95",
+            "macAdam": "MacAdam 3–Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/01/Sky-Fall-Round-medium-GlossyBronze.png",
+          "Dimming": "Triac, Dali"
+        },
+        {
+          "Code": "14824 7130",
+          "Structure": "Chrome",
+          "Diffuser": "Golden Sage",
+          "Lamp": {
+            "type": "LED",
+            "temperature": "3000 K",
+            "wattage": "2 x 8,5 W",
+            "lumens": "1870 lm",
+            "current": "350 mA",
+            "CRI": "CRI 95",
+            "macAdam": "MacAdam 3–Step",
+            "more": "LED and driver included"
+          },
+          "ThumbnailImage": "https://www.lodes.com/wp-content/uploads/2024/01/Sky-Fall-Round-medium-GoldenSage.png",
+          "Dimming": "Triac, Dali"
+        }
+      ]
+    },
+    {
+      "Product Name": "Sky-Fall double canopy",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2021/08/Sky–Fall-double-canopy.png",
+      "Product Details": [
+        {
+          "Code": "R99L02 4000",
+          "System": "Wall System",
+          "Structure": "Chrome",
+          "ThumbnailImage": "N/A"
+        }
+      ]
+    },
+    {
+      "Product Name": "Wall Standard",
+      "Dimension Drawing": "https://www.lodes.com/wp-content/uploads/2021/08/Sky-Fall-Double-Canopy.svg",
+      "Product Details": [
+        {
+          "Code": "R12L01 4000",
+          "System": "N/A",
+          "Structure": "Chrome",
+          "ThumbnailImage": "N/A"
+        }
+      ]
+    }
+  ]
+]
